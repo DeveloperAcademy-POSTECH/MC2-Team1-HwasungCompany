@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1111C841285306F6000F3A38 /* SettingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111C840285306F6000F3A38 /* SettingButtonView.swift */; };
+		1111C843285306FD000F3A38 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111C842285306FD000F3A38 /* SettingView.swift */; };
+		1111C84628530724000F3A38 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 1111C84528530724000F3A38 /* PartialSheet */; };
 		C613C433283E0BE800BCFC82 /* FadeInByOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613C432283E0BE800BCFC82 /* FadeInByOrderView.swift */; };
 		C613C43D283E14AC00BCFC82 /* NotoSerifKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = C613C436283E12A400BCFC82 /* NotoSerifKR-Black.otf */; };
 		C613C43E283E14AC00BCFC82 /* NotoSerifKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C613C43A283E12A400BCFC82 /* NotoSerifKR-Bold.otf */; };
@@ -31,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1111C840285306F6000F3A38 /* SettingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingButtonView.swift; sourceTree = "<group>"; };
+		1111C842285306FD000F3A38 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		C613C432283E0BE800BCFC82 /* FadeInByOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeInByOrderView.swift; sourceTree = "<group>"; };
 		C613C435283E112300BCFC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C613C436283E12A400BCFC82 /* NotoSerifKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifKR-Black.otf"; sourceTree = "<group>"; };
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1111C84628530724000F3A38 /* PartialSheet in Frameworks */,
 				C613C446283E678C00BCFC82 /* WrappingHStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,6 +131,8 @@
 				C613C432283E0BE800BCFC82 /* FadeInByOrderView.swift */,
 				C66C56E12845E2A200BDC0CC /* FadeInView.swift */,
 				C6E1B9BB283B782700EEC6F1 /* ModelData.swift */,
+				1111C840285306F6000F3A38 /* SettingButtonView.swift */,
+				1111C842285306FD000F3A38 /* SettingView.swift */,
 				C6E1945E284A590200EC9131 /* HalfASheet */,
 				C6E1B9B6283B776A00EEC6F1 /* Resources */,
 				C6E1B9B5283B776600EEC6F1 /* Models */,
@@ -177,6 +185,7 @@
 			name = "MC2-Team1";
 			packageProductDependencies = (
 				C613C445283E678C00BCFC82 /* WrappingHStack */,
+				1111C84528530724000F3A38 /* PartialSheet */,
 			);
 			productName = "MC2-Team1";
 			productReference = C6E1B9A4283B772E00EEC6F1 /* MC2-Team1.app */;
@@ -208,6 +217,7 @@
 			mainGroup = C6E1B99B283B772E00EEC6F1;
 			packageReferences = (
 				C613C444283E678C00BCFC82 /* XCRemoteSwiftPackageReference "WrappingHStack" */,
+				1111C84428530724000F3A38 /* XCRemoteSwiftPackageReference "PartialSheet" */,
 			);
 			productRefGroup = C6E1B9A5283B772E00EEC6F1 /* Products */;
 			projectDirPath = "";
@@ -252,7 +262,9 @@
 				C66C56E22845E2A200BDC0CC /* FadeInView.swift in Sources */,
 				C6E1B9AA283B772E00EEC6F1 /* ContentView.swift in Sources */,
 				C6E1B9A8283B772E00EEC6F1 /* MC2_Team1App.swift in Sources */,
+				1111C843285306FD000F3A38 /* SettingView.swift in Sources */,
 				C6E1945B284A58EF00EC9131 /* HalfASheet+Modifiers.swift in Sources */,
+				1111C841285306F6000F3A38 /* SettingButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +471,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		1111C84428530724000F3A38 /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		C613C444283E678C00BCFC82 /* XCRemoteSwiftPackageReference "WrappingHStack" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/dkk/WrappingHStack";
@@ -470,6 +490,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1111C84528530724000F3A38 /* PartialSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1111C84428530724000F3A38 /* XCRemoteSwiftPackageReference "PartialSheet" */;
+			productName = PartialSheet;
+		};
 		C613C445283E678C00BCFC82 /* WrappingHStack */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C613C444283E678C00BCFC82 /* XCRemoteSwiftPackageReference "WrappingHStack" */;

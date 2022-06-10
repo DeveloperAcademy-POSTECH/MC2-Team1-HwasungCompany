@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "partialsheet",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AndreaMiotto/PartialSheet.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "415fafa8ed719613b3abc787d52a8aa32a4998b9"
+      }
+    },
+    {
       "identity" : "wrappinghstack",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/dkk/WrappingHStack",
