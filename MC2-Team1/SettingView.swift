@@ -25,7 +25,7 @@ struct SettingView: View {
                         .font(.headline)
                     Spacer()
                 }
-                .padding(.vertical, 30)
+                .padding(.bottom)
                 
                 Toggle(isOn: $someBinding) {
                     Text("진동 효과")
@@ -49,13 +49,16 @@ struct SettingView: View {
                 
                 VStack {
                     Text("현재 텍스트 크기입니다.")
+                        .font(.system(size: CGFloat(fontSize)))
                     
                     HStack {
                         Text("가")
+                            .font(.system(size: CGFloat(12)))
+
                         
                         Slider(
                             value: $fontSize,
-                            in: 12...24, step: 1,
+                            in: 12...32, step: 2,
                             onEditingChanged: { editing in
                                 isEditing = editing
                             }
@@ -63,6 +66,8 @@ struct SettingView: View {
                         .tint(.gray)
                         
                         Text("가")
+                            .font(.system(size: CGFloat(32)))
+
                     }
                 }
                 .padding()
