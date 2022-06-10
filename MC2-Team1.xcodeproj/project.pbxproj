@@ -10,6 +10,12 @@
 		1111C841285306F6000F3A38 /* SettingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111C840285306F6000F3A38 /* SettingButtonView.swift */; };
 		1111C843285306FD000F3A38 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111C842285306FD000F3A38 /* SettingView.swift */; };
 		1111C84628530724000F3A38 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 1111C84528530724000F3A38 /* PartialSheet */; };
+		37D9E2AE2851CA31005BB908 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9E2AD2851CA31005BB908 /* DotView.swift */; };
+		3AA9DFD42851CADD00365420 /* GlassAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9DFD32851CADD00365420 /* GlassAnimation.swift */; };
+		3AA9DFEB2851DCEC00365420 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9DFEA2851DCEC00365420 /* HapticManager.swift */; };
+		B7690EE22851C613008E81AC /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7690EE12851C613008E81AC /* StartView.swift */; };
+		B7690EE62851D157008E81AC /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7690EE52851D153008E81AC /* Inter-SemiBold.ttf */; };
+		B7690F15285322E2008E81AC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7690F14285322E2008E81AC /* Color.swift */; };
 		C613C433283E0BE800BCFC82 /* FadeInByOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C613C432283E0BE800BCFC82 /* FadeInByOrderView.swift */; };
 		C613C43D283E14AC00BCFC82 /* NotoSerifKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = C613C436283E12A400BCFC82 /* NotoSerifKR-Black.otf */; };
 		C613C43E283E14AC00BCFC82 /* NotoSerifKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C613C43A283E12A400BCFC82 /* NotoSerifKR-Bold.otf */; };
@@ -36,6 +42,12 @@
 /* Begin PBXFileReference section */
 		1111C840285306F6000F3A38 /* SettingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingButtonView.swift; sourceTree = "<group>"; };
 		1111C842285306FD000F3A38 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		37D9E2AD2851CA31005BB908 /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		3AA9DFD32851CADD00365420 /* GlassAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassAnimation.swift; sourceTree = "<group>"; };
+		3AA9DFEA2851DCEC00365420 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		B7690EE12851C613008E81AC /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		B7690EE52851D153008E81AC /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		B7690F14285322E2008E81AC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		C613C432283E0BE800BCFC82 /* FadeInByOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeInByOrderView.swift; sourceTree = "<group>"; };
 		C613C435283E112300BCFC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C613C436283E12A400BCFC82 /* NotoSerifKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifKR-Black.otf"; sourceTree = "<group>"; };
@@ -73,9 +85,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7690F12285322CE008E81AC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B7690F13285322D5008E81AC /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B7690F13285322D5008E81AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B7690F14285322E2008E81AC /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C613C434283E108A00BCFC82 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				B7690EE52851D153008E81AC /* Inter-SemiBold.ttf */,
 				C613C436283E12A400BCFC82 /* NotoSerifKR-Black.otf */,
 				C613C43A283E12A400BCFC82 /* NotoSerifKR-Bold.otf */,
 				C613C43C283E12A400BCFC82 /* NotoSerifKR-ExtraLight.otf */,
@@ -125,19 +154,24 @@
 		C6E1B9A6283B772E00EEC6F1 /* MC2-Team1 */ = {
 			isa = PBXGroup;
 			children = (
+				B7690F12285322CE008E81AC /* Helpers */,
 				C613C435283E112300BCFC82 /* Info.plist */,
 				C6E1B9A7283B772E00EEC6F1 /* MC2_Team1App.swift */,
+				3AA9DFD32851CADD00365420 /* GlassAnimation.swift */,
 				C6E1B9A9283B772E00EEC6F1 /* ContentView.swift */,
 				C613C432283E0BE800BCFC82 /* FadeInByOrderView.swift */,
 				C66C56E12845E2A200BDC0CC /* FadeInView.swift */,
 				C6E1B9BB283B782700EEC6F1 /* ModelData.swift */,
 				1111C840285306F6000F3A38 /* SettingButtonView.swift */,
 				1111C842285306FD000F3A38 /* SettingView.swift */,
+				3AA9DFEA2851DCEC00365420 /* HapticManager.swift */,
 				C6E1945E284A590200EC9131 /* HalfASheet */,
 				C6E1B9B6283B776A00EEC6F1 /* Resources */,
 				C6E1B9B5283B776600EEC6F1 /* Models */,
 				C6E1B9AB283B772E00EEC6F1 /* Assets.xcassets */,
 				C6E1B9AD283B772E00EEC6F1 /* Preview Content */,
+				B7690EE12851C613008E81AC /* StartView.swift */,
+				37D9E2AD2851CA31005BB908 /* DotView.swift */,
 			);
 			path = "MC2-Team1";
 			sourceTree = "<group>";
@@ -236,6 +270,7 @@
 				C613C43D283E14AC00BCFC82 /* NotoSerifKR-Black.otf in Resources */,
 				C613C43E283E14AC00BCFC82 /* NotoSerifKR-Bold.otf in Resources */,
 				C613C43F283E14AC00BCFC82 /* NotoSerifKR-ExtraLight.otf in Resources */,
+				B7690EE62851D157008E81AC /* Inter-SemiBold.ttf in Resources */,
 				C613C440283E14AC00BCFC82 /* NotoSerifKR-Light.otf in Resources */,
 				C613C441283E14AC00BCFC82 /* NotoSerifKR-Medium.otf in Resources */,
 				C613C442283E14AC00BCFC82 /* NotoSerifKR-Regular.otf in Resources */,
@@ -253,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA9DFEB2851DCEC00365420 /* HapticManager.swift in Sources */,
 				C6E1B9B8283B778800EEC6F1 /* Paragraph.swift in Sources */,
+				3AA9DFD42851CADD00365420 /* GlassAnimation.swift in Sources */,
+				B7690EE22851C613008E81AC /* StartView.swift in Sources */,
+				37D9E2AE2851CA31005BB908 /* DotView.swift in Sources */,
 				C6E1B9BC283B782700EEC6F1 /* ModelData.swift in Sources */,
+				B7690F15285322E2008E81AC /* Color.swift in Sources */,
 				C6E1945C284A58EF00EC9131 /* If.swift in Sources */,
 				C6E19457284A58EA00EC9131 /* HalfASheet.swift in Sources */,
 				C6E1945D284A58EF00EC9131 /* VerticalSlideTransition.swift in Sources */,
@@ -393,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MC2-Team1/Preview Content\"";
-				DEVELOPMENT_TEAM = 76AJ433CP5;
+				DEVELOPMENT_TEAM = UAM52RQFW9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MC2-Team1/Info.plist";
@@ -424,7 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MC2-Team1/Preview Content\"";
-				DEVELOPMENT_TEAM = 76AJ433CP5;
+				DEVELOPMENT_TEAM = UAM52RQFW9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MC2-Team1/Info.plist";

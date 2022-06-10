@@ -13,6 +13,7 @@ struct FadeInByOrderView: View {
     // Define
     var text: String
     var fontSize: CGFloat
+    var isTextAnimation: Bool
     @State var opacity: Double = 0
     let NotoSerifMedium = "NotoSerifKR-Medium"
 
