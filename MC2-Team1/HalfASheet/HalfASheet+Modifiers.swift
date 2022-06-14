@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  
-//
-//  Created by Franklyn Weber on 04/02/2021.
-//
-
 import SwiftUI
 
 

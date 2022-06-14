@@ -1,10 +1,3 @@
-//
-//  VerticalSlideModifier.swift
-//
-//  Created by Franklyn Weber on 28/01/2021.
-//  Copyright © 2021 Franklyn. All rights reserved.
-//
-
 import SwiftUI
 
 

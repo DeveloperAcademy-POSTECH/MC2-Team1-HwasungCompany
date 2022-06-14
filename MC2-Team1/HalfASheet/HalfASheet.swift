@@ -1,9 +1,3 @@
-//
-//  HalfASheet.swift
-//
-//  Created by Franklyn Weber on 28/01/2021.
-//
-
 import SwiftUI
 import Combine
 

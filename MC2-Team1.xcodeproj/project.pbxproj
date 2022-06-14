@@ -38,6 +38,9 @@
 		C66C56E22845E2A200BDC0CC /* FadeInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C56E12845E2A200BDC0CC /* FadeInView.swift */; };
 		C6AE29532855CDB200E9F39F /* ButtonFadeInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE29522855CDB200E9F39F /* ButtonFadeInView.swift */; };
 		C6AE2957285705CA00E9F39F /* chapterTwo.json in Resources */ = {isa = PBXBuildFile; fileRef = C6AE2956285705CA00E9F39F /* chapterTwo.json */; };
+		C6AE999B28587A1500FF8BD0 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE999A28587A1500FF8BD0 /* OnBoardingView.swift */; };
+		C6AE999D28587AC700FF8BD0 /* OnBoardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE999C28587AC700FF8BD0 /* OnBoardingPageView.swift */; };
+		C6AE999F2858858200FF8BD0 /* OnBoardingLastPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE999E2858858200FF8BD0 /* OnBoardingLastPageView.swift */; };
 		C6E19457284A58EA00EC9131 /* HalfASheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E19456284A58EA00EC9131 /* HalfASheet.swift */; };
 		C6E1945B284A58EF00EC9131 /* HalfASheet+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E19458284A58EF00EC9131 /* HalfASheet+Modifiers.swift */; };
 		C6E1945D284A58EF00EC9131 /* VerticalSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E19459284A58EF00EC9131 /* VerticalSlideTransition.swift */; };
@@ -87,6 +90,9 @@
 		C66C56E12845E2A200BDC0CC /* FadeInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeInView.swift; sourceTree = "<group>"; };
 		C6AE29522855CDB200E9F39F /* ButtonFadeInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFadeInView.swift; sourceTree = "<group>"; };
 		C6AE2956285705CA00E9F39F /* chapterTwo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterTwo.json; sourceTree = "<group>"; };
+		C6AE999A28587A1500FF8BD0 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		C6AE999C28587AC700FF8BD0 /* OnBoardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPageView.swift; sourceTree = "<group>"; };
+		C6AE999E2858858200FF8BD0 /* OnBoardingLastPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingLastPageView.swift; sourceTree = "<group>"; };
 		C6E19456284A58EA00EC9131 /* HalfASheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfASheet.swift; sourceTree = "<group>"; };
 		C6E19458284A58EF00EC9131 /* HalfASheet+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalfASheet+Modifiers.swift"; sourceTree = "<group>"; };
 		C6E19459284A58EF00EC9131 /* VerticalSlideTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSlideTransition.swift; sourceTree = "<group>"; };
@@ -120,6 +126,7 @@
 		37D9E2B0285378B2005BB908 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C6AE99A628589F1A00FF8BD0 /* OnBoarding */,
 				C6E1B9A9283B772E00EEC6F1 /* ContentView.swift */,
 				3AA9DFD32851CADD00365420 /* GlassAnimationView.swift */,
 				D4EE46AF285465AE00C608DA /* PullLeverGameView.swift */,
@@ -179,6 +186,16 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6AE99A628589F1A00FF8BD0 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				C6AE999A28587A1500FF8BD0 /* OnBoardingView.swift */,
+				C6AE999C28587AC700FF8BD0 /* OnBoardingPageView.swift */,
+				C6AE999E2858858200FF8BD0 /* OnBoardingLastPageView.swift */,
+			);
+			path = OnBoarding;
 			sourceTree = "<group>";
 		};
 		C6E1945E284A590200EC9131 /* HalfASheet */ = {
@@ -360,6 +377,7 @@
 				D4EE46B0285465AE00C608DA /* PullLeverGameView.swift in Sources */,
 				C6E1B9B8283B778800EEC6F1 /* Paragraph.swift in Sources */,
 				3AA9DFD42851CADD00365420 /* GlassAnimationView.swift in Sources */,
+				C6AE999B28587A1500FF8BD0 /* OnBoardingView.swift in Sources */,
 				B7690EE22851C613008E81AC /* StartView.swift in Sources */,
 				37D9E2AE2851CA31005BB908 /* DotView.swift in Sources */,
 				C6E1B9BC283B782700EEC6F1 /* ModelData.swift in Sources */,
@@ -373,9 +391,11 @@
 				058249AA2854DE7300EC0832 /* BoxOpenView.swift in Sources */,
 				C66C56E22845E2A200BDC0CC /* FadeInView.swift in Sources */,
 				C6AE29532855CDB200E9F39F /* ButtonFadeInView.swift in Sources */,
+				C6AE999D28587AC700FF8BD0 /* OnBoardingPageView.swift in Sources */,
 				B7690F1928548932008E81AC /* InitView.swift in Sources */,
 				C6E1B9AA283B772E00EEC6F1 /* ContentView.swift in Sources */,
 				C6E1B9A8283B772E00EEC6F1 /* MC2_Team1App.swift in Sources */,
+				C6AE999F2858858200FF8BD0 /* OnBoardingLastPageView.swift in Sources */,
 				C6E1945B284A58EF00EC9131 /* HalfASheet+Modifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
