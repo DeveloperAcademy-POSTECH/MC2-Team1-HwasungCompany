@@ -12,6 +12,7 @@
 		058249AF2854DECF00EC0832 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 058249AE2854DECF00EC0832 /* Lottie */; };
 		05FB2E0F285710360089359B /* chapterSixB.json in Resources */ = {isa = PBXBuildFile; fileRef = 05FB2E0E285710360089359B /* chapterSixB.json */; };
 		05FB2E35285884660089359B /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB2E34285884660089359B /* CreditView.swift */; };
+		05FB2E3E2859BA180089359B /* MyVeryOwnDeadShip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05FB2E3D2859BA180089359B /* MyVeryOwnDeadShip.mp3 */; };
 		11139EBB28570D5B00EF6FD1 /* chapterFive.json in Resources */ = {isa = PBXBuildFile; fileRef = 11139EBA28570D5B00EF6FD1 /* chapterFive.json */; };
 		11F4C4022859A509002CE9F4 /* chapterFiveEng.json in Resources */ = {isa = PBXBuildFile; fileRef = 11F4C4002859A509002CE9F4 /* chapterFiveEng.json */; };
 		11F4C4032859A509002CE9F4 /* chapterFourEng.json in Resources */ = {isa = PBXBuildFile; fileRef = 11F4C4012859A509002CE9F4 /* chapterFourEng.json */; };
@@ -77,6 +78,7 @@
 		058249AB2854DE9800EC0832 /* openBox.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = openBox.json; sourceTree = "<group>"; };
 		05FB2E0E285710360089359B /* chapterSixB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterSixB.json; sourceTree = "<group>"; };
 		05FB2E34285884660089359B /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		05FB2E3D2859BA180089359B /* MyVeryOwnDeadShip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MyVeryOwnDeadShip.mp3; sourceTree = "<group>"; };
 		11139EBA28570D5B00EF6FD1 /* chapterFive.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterFive.json; sourceTree = "<group>"; };
 		11F4C4002859A509002CE9F4 /* chapterFiveEng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterFiveEng.json; sourceTree = "<group>"; };
 		11F4C4012859A509002CE9F4 /* chapterFourEng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterFourEng.json; sourceTree = "<group>"; };
@@ -151,6 +153,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05FB2E5B2859D3300089359B /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				05FB2E3D2859BA180089359B /* MyVeryOwnDeadShip.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		37D9E2B0285378B2005BB908 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -297,9 +307,9 @@
 		C6E1B9B6283B776A00EEC6F1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				05FB2E5B2859D3300089359B /* Sound */,
 				058249AB2854DE9800EC0832 /* openBox.json */,
 				C6E1B9B9283B77C100EEC6F1 /* chapterOne.json */,
-				C6AE2956285705CA00E9F39F /* chapterTwo.json */,
 				37D9E2B728570CBC005BB908 /* chapterThree.json */,
 				D4EE46C12857107400C608DA /* chapterFour.json */,
 				11F4C4002859A509002CE9F4 /* chapterFiveEng.json */,
@@ -310,7 +320,6 @@
 				11F4C4042859A520002CE9F4 /* chapterSixBEng.json */,
 				11F4C4012859A509002CE9F4 /* chapterFourEng.json */,
 				C6AE2956285705CA00E9F39F /* chapterTwo.json */,
-				05FB2E0E285710360089359B /* chapterSixB.json */,
 				11139EBA28570D5B00EF6FD1 /* chapterFive.json */,
 				05FB2E0E285710360089359B /* chapterSixB.json */,
 				B70C7352285705A6009F8D61 /* chapterSixC.json */,
@@ -406,6 +415,7 @@
 				11139EBB28570D5B00EF6FD1 /* chapterFive.json in Resources */,
 				C613C43F283E14AC00BCFC82 /* NotoSerifKR-ExtraLight.otf in Resources */,
 				B7690EE62851D157008E81AC /* Inter-SemiBold.ttf in Resources */,
+				05FB2E3E2859BA180089359B /* MyVeryOwnDeadShip.mp3 in Resources */,
 				3A3C86E82858C1C500F0F8DE /* chapterFiveJP.json in Resources */,
 				3A3C86EA2858D12C00F0F8DE /* chapterSixBJP.json in Resources */,
 				B7FD7D682855C79B006A509E /* PastPara.json in Resources */,

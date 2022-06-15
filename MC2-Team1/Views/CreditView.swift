@@ -4,18 +4,24 @@
 //
 //  Created by Shin yongjun on 2022/06/14.
 //
+//https://www.appcoda.com/star-wars-animated-text-swiftui/
 
 import SwiftUI
+import AVFoundation
+
 
 struct CreditView: View {
     @State private var animationStart = false
     @State private var animationEnd = false
+    
+    @State var audioPlayer: AVAudioPlayer!
+
     // animation 지속시간
     private let startAnimationDuration = 5.0
     private let middleAnimationDuration = 6.0
     private let endAnimationDuration = 0.5
     private let mainFont = "NanumMyeongjo"
-    @State var attributedString = AttributedString("화성상사\n\n회장 Woody \n최고학력자 Digi \n영양사 Bethev \n아브 EllyJ \n딱풀 Rang \n원어민 Sophie \n과장 Everett \n\n And you")
+    @State var attributedString = AttributedString("화성상사\n\n회장 Woody \n최고학력자 Digi \n영양사 Bethev \n충전 EllyJ \n딱풀 Rang \n원어민 Sophie \n과장 Everett \n\n And you")
     @State var opacity: Double = 0
     
     var body: some View {
@@ -43,7 +49,7 @@ struct CreditView: View {
                     attributedString[range1].font = .custom(mainFont, size: 20)
                     let range2 = attributedString.range(of: "영양사")!
                     attributedString[range2].font = .custom(mainFont, size: 20)
-                    let range3 = attributedString.range(of: "아브")!
+                    let range3 = attributedString.range(of: "충전")!
                     attributedString[range3].font = .custom(mainFont, size: 20)
                     let range4 = attributedString.range(of: "딱풀")!
                     attributedString[range4].font = .custom(mainFont, size: 20)
@@ -62,10 +68,11 @@ struct CreditView: View {
                             self.animationEnd.toggle()
                         }
                     }
+                    let sound = Bundle.main.path(forResource: "MyVeryOwnDeadShip", ofType: "mp3")
+                    self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
             }
         }
         .ignoresSafeArea()
-        
     }
 }
 
