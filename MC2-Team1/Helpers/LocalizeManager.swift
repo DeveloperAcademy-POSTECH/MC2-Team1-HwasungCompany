@@ -8,16 +8,26 @@
 import Foundation
 
 final class LocalizeManager {
-    static func getDeviceLanguage() -> String {
-        let preferredLanguage = Locale.preferredLanguages.first
-        if preferredLanguage!.contains("ko") {
-            return "KR"
-        } else if preferredLanguage!.contains("zh") {
-            return "CN"
-        } else if preferredLanguage!.contains("ja") {
-            return "JP"
-        } else {
-            return "Eng"
+    static var deviceLanguage: Language {
+        get {
+            if let preferredLanguage = Locale.preferredLanguages.first {
+                if preferredLanguage.contains("ko") {
+                    return Language.KR
+                } else if preferredLanguage.contains("zh") {
+                    return Language.CN
+                } else if preferredLanguage.contains("ja") {
+                    return Language.JP
+                } else {
+                    return Language.EN
+                }
+            }
+            return Language.EN
+        }
+    }
+    
+    static var jsonFileName: String {
+        get {
+            return deviceLanguage.fileName
         }
     }
 }

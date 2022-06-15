@@ -125,7 +125,7 @@ extension ButtonFadeInView{
         } label: {
             Text(choice.content)
                 .foregroundColor(.fontColor)
-                .font(.custom(modelData.getChoiceFontName(), size: 18))
+                .font(.custom(modelData.choiceFontName, size: 18))
                 .frame(maxWidth: .infinity, maxHeight: RatioSize.getResheight(height: 60))
                 .background(Color.bgColor)
                 .cornerRadius(50)

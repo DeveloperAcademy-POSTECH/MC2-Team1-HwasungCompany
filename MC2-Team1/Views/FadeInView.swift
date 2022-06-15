@@ -21,7 +21,7 @@ struct FadeInView: View {
     // body
     var body: some View {
         Text(text)
-            .font(.custom(modelData.getContentFontName(), size: fontSize))
+            .font(.custom(modelData.contentFontName, size: fontSize))
             .opacity( isTextAnimation == true ? opacity : Double(1))
             .lineSpacing(fontSize - 6)
             .animation(.easeIn.delay( 0.3 ), value: opacity)

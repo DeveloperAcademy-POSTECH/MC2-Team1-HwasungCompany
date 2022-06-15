@@ -116,7 +116,7 @@ extension ContentView {
                 }
                 HStack{
                     Text((modelData.currentChapterIndex == 1 && paragraphId >= 7) || modelData.currentChapterIndex > 1 ? "Baek".localized():"?")
-                        .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                        .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
                         .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                         .background(Color.tapFontColor)
@@ -125,7 +125,7 @@ extension ContentView {
                     Spacer()
                     
                     Text((modelData.currentChapterIndex == 2 && paragraphId >= 14) || modelData.currentChapterIndex > 2 ? "Choi".localized():"?")
-                        .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                        .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
                         .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                         .background(Color.tapFontColor)
@@ -133,7 +133,7 @@ extension ContentView {
                 }//HStack
                 
                 Text("Ahn".localized())
-                    .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                    .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 18)))
                     .foregroundColor(.fontColor)
                     .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                     .background(Color.bgColor)
@@ -168,7 +168,7 @@ extension ContentView {
             HStack{
                 Spacer()
                 Text("Setting".localized())
-                    .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 22)))
+                    .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 22)))
                 Spacer()
             }
             
@@ -176,29 +176,29 @@ extension ContentView {
             HStack{
                 Toggle(isOn: $isTextAnimation) {
                     Text("Text Animation Effects".localized())
-                        .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                        .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 18)))
                 }
             }
             
             // Text Size Adjust
             Text("Text Size".localized())
-                .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 18)))
 
             VStack{
                 // Sample Text
                 Text("Current Text Size".localized())
-                    .font(.custom(modelData.getContentFontName(), size: fontSize))
+                    .font(.custom(modelData.contentFontName, size: fontSize))
                     .padding(.vertical, RatioSize.getResheight(height: 10))
                     .frame(height: 30)
                 
                 // Slider
                 HStack{
                     Text("A".localized())
-                        .font(.custom(modelData.getContentFontName(), size: 14))
+                        .font(.custom(modelData.contentFontName, size: 14))
                     Slider(value: $fontSize, in: 14...22,
                            step: 2)
                     Text("A".localized())
-                        .font(.custom(modelData.getContentFontName(), size: 22))
+                        .font(.custom(modelData.contentFontName, size: 22))
                 }
                 .padding(.vertical, RatioSize.getResheight(height: 10))
             }
@@ -213,19 +213,19 @@ extension ContentView {
                     isShowingAlert = true
                 }label: {
                     Text("Restart the Game".localized())
-                        .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                        .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 18)))
                 }
                 .alert(isPresented: $isShowingAlert){
                     
                     Alert(
                         title: Text("Are you sure to restart the game?".localized())
-                            .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18))),
+                            .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 18))),
                         message: Text("The game is going to be initialized.\nThis act cannot be undone.".localized())
-                            .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18))),
+                            .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 18))),
                         primaryButton: .default(Text("Cancel".localized())
-                            .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))),
+                            .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 18)))),
                         secondaryButton: .destructive(Text("Confirm".localized())
-                            .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))){
+                            .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 18)))){
                             // Clear history
                             modelData.currentChapterIndex = 0
                                 modelData.pastParas = [["Records".localized()]]

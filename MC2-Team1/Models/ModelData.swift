@@ -33,7 +33,7 @@ final class ModelData: ObservableObject {
             chapterFileName = "chapterOne"
         }
         
-        let chapter: [Paragraph] = JsonManager.load("\(chapterFileName)\(LocalizeManager.getDeviceLanguage()).json")
+        let chapter: [Paragraph] = JsonManager.load("\(chapterFileName)\(LocalizeManager.jsonFileName).json")
         var filteredPara: Paragraph {
             chapter.filter { paragraph in paragraph.id == id }.first!
         }
@@ -94,36 +94,40 @@ final class ModelData: ObservableObject {
     
     let chapterNameArray = ["A Strange Room".localized(), "Baek Yeonwoo".localized(), "Choi Jiwon".localized(), "The Cure".localized(), "A Branch Road".localized(), "Ahn Jimin".localized()]
     
-    func getContentFontName() -> String {
-        switch LocalizeManager.getDeviceLanguage() {
-        case "KR", "Eng":
-            return "NanumMyeongjo"
-        case "CN", "JP":
-            return "NotoSerifSC-Medium"
-        default :
-            return "NanumMyeongjo"
+    var contentFontName: String {
+        get {
+            switch LocalizeManager.deviceLanguage {
+            case .KR, .EN:
+                return "NanumMyeongjo"
+            case .CN, .JP:
+                return "NotoSerifSC-Medium"
+            default :
+                return "NanumMyeongjo"
+            }
         }
     }
-    
-    func getChoiceFontName() -> String {
-        switch LocalizeManager.getDeviceLanguage() {
-        case "KR", "Eng":
-            return "NanumMyeongjoBold"
-        case "CN", "JP":
-            return "NotoSerifSC-Bold"
-        default :
-            return "NanumMyeongjoBold"
+    var choiceFontName: String {
+        get {
+            switch LocalizeManager.deviceLanguage {
+            case .KR, .EN:
+                return "NanumMyeongjoBold"
+            case .CN, .JP:
+                return "NotoSerifSC-Bold"
+            default :
+                return "NanumMyeongjoBold"
+            }
         }
     }
-    
-    func getTitleFontName() -> String {
-        switch LocalizeManager.getDeviceLanguage() {
-        case "KR", "Eng":
-            return "NuosuSIL-Regular"
-        case "CN", "JP":
-            return "NotoSerifSC-Regular"
-        default :
-            return "NuosuSIL-Regular"
+    var titleFontName: String {
+        get {
+            switch LocalizeManager.deviceLanguage {
+            case .KR, .EN:
+                return "NuosuSIL-Regular"
+            case .CN, .JP:
+                return "NotoSerifSC-Regular"
+            default :
+                return "NuosuSIL-Regular"
+            }
         }
     }
 }

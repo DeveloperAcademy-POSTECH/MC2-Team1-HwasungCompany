@@ -28,13 +28,13 @@ struct StartView: View {
                 Group{
                     HStack{
                         Text("NIPS")
-                            .font(.custom(modelData.getTitleFontName(), size: RatioSize.getResWidth(width: 96)))
+                            .font(.custom(modelData.titleFontName, size: RatioSize.getResWidth(width: 96)))
                             .foregroundColor(.fontColor)
                     }.frame(width: textWidth, alignment: .leading)
                     HStack {
                         Spacer()
                         Text("Hydden")
-                            .font(.custom(modelData.getTitleFontName(), size: RatioSize.getResWidth(width: 60)))
+                            .font(.custom(modelData.titleFontName, size: RatioSize.getResWidth(width: 60)))
                             .foregroundColor(.fontColor)
                     }.frame(width: textWidth, alignment: .trailing)
                 }
@@ -64,7 +64,7 @@ struct StartView: View {
                 HStack {
                     Spacer()
                     Text("Chapter \(chapterNumber)")
-                        .font(.custom(modelData.getTitleFontName(), size: RatioSize.getResWidth(width: 24)))
+                        .font(.custom(modelData.titleFontName, size: RatioSize.getResWidth(width: 24)))
                         .foregroundColor(.fontColor)
                         .padding(.top, RatioSize.getResheight(height: 30))
                         .onAppear {
@@ -93,7 +93,7 @@ struct StartView: View {
                 HStack {
                     Spacer()
                     Text("\(modelData.chapterNameArray[modelData.currentChapterIndex])")
-                        .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                        .font(.custom(modelData.contentFontName, size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
                     Spacer()
                 }
