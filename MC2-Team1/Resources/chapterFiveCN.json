@@ -1,0 +1,205 @@
+[
+    {
+        "id": 1,
+        "content": "\"不能给你！\"\n崔智远喊道。\n我不在的时候到底发生了什么事情？",
+        "choices": [
+            {
+                "content" : "望着白延宇",
+                "nextParagraphId" : 3,
+                "effectB" : 1,
+                "effectC" : -1
+            },
+            {
+                "content" : "向崔智远问",
+                "nextParagraphId" : 2,
+                "effectB" : -1,
+                "effectC" : 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": "\"到底发生了什么事？\"\n崔智远没有回答，一直保持沉默。",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": "我回头看了看白延宇。白延宇叹气而说。\n\"崔智远负责人好像拿着我要找的治疗剂，但他说不能给。\"",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 4
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": "\"我明明说了那个治疗剂很危险！\"\n\"据我所知，大部分临床实验程序已经完成了。\"\n\"虽然临床实验已经结束了，但是。。！\"\n崔智远握紧拳头，表情扭曲地望着地面。",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": "\"。。无论如何也不能给。反正那些治疗剂已经全部废弃了。\"\n崔智远如是说。\n\"全部废弃。。？\"\n\"我一直留在研究室的理由也是因为这个。\"",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 6
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": "治疗剂已经全部废弃了？那么我手里拿着的是什么？\n我摸了摸口袋里的玻璃棍子。",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": "白延宇沉默了一会儿，开口了。\n\"明明知道那治疗剂能拯救多少人，为什么还要采取那种措施呢？\"\n\"再说一遍，因为它很危-\"\n\"不是因为做了未经许可的实验吗？\"\n崔智远僵住了身体。",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 8
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "content": "\"果然没错。听说因为你们的无理实验，受试者中出现了死亡者，没想到是真的。\"\n\"那是。。！\"\n\"啊，不是受试者，而是一般的市民吗？\"",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 9
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "content": "崔智远狠狠地瞪着白延宇，淡定地开始说。",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 10
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "content": "\"能出入NIPS的人并不多。甚至能进入研究区的人只有两类。要么是研究员，要么是受试者。\"",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 11
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "content": "\"国立人格分离研究所中受试者的只有一种。在一个身体里拥有了两种人格，但其中一个是拥有危害社会的粗暴残忍人格的人物。\"",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 12
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "content": "\"关于治疗剂JH3的信息，除了部分责任研究员外，都是保密事项，谁都不知道。。\"\n\"。。。\"",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 13
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "content": "\"治疗剂？拯救人们的不是治疗剂，而是白延宇，你的极端自我消失了。\"",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 14
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "content": "白延宇是双重人格。。？",
+        "choices": [
+            {
+                "content" : "如果真的话，那怎么办呢。。？",
+                "nextParagraphId" : 16,
+                "effectB" : -3,
+                "effectC" : 3
+            },
+            {
+                "content" : "这能相信吗。。？",
+                "nextParagraphId" : 15,
+                "effectB" : 3,
+                "effectC" : -3
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "content": "但是在那亲切的行为中，却看不到粗暴的样子。。?",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 16
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "content": "但是如果崔智远的话是真的，就应该把治疗剂给崔智远。",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 17
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "content": "到底该信谁的话？",
+        "choices": [
+            {
+                "content" : "继续",
+                "nextParagraphId" : 18
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "content": "该给谁这治疗剂呢？",
+        "choices": [
+            {
+                "content" : "递给白延宇",
+                "nextParagraphId" : -1,
+                "nextChapterIndex" : 5
+                
+            },
+            {
+                "content" : "递给崔智远",
+                "nextParagraphId": -1,
+                "nextChapterIndex": 6
+            }
+        ]
+    },
+]

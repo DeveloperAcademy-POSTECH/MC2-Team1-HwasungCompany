@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  MC2-Team1
+
+  Created by peo on 2022/06/15.
+  
+*/
+
+"Setting" = "Setting";
+"Text Animation Effects" = "Text Animation Effects";
+"Text Size" = "Text Size";
+"Current Text Size" = "Current Text Size";
+"A" = "A";
+"Restart the Game" = "Restart the Game";
+"Are you sure to restart the game?" = "Are you sure to restart the game?";
+"The game is going to be initialized.\nThis act cannot be undone." = "The game is going to be initialized.\nThis act cannot be undone.";
+"Cancel" = "Cancel";
+"Confirm" = "Confirm";
+"Records" = "Records";
+"Baek" = "BJ";
+"Choi" = "CT";
+"Ahn" = "Me";
+"TAP TO START" = "TAP TO START";
+"Drag to open the box" = "Drag to open the box";
+"Double click to inspect the box" = "Double click to inspect the box";
+"A Strange Room" = "\"A Strange Room\"";
+"Baek Yeonwoo" = "\"Bailey Jones\"";
+"Choi Jiwon" = "\"Chris Turner\"";
+"The Cure" = "\"The Cure\"";
+"A Branch Road" = "\"A Branch Road\"";
+"Ahn Jimin" = "\"Andrea Davies\"";

@@ -28,13 +28,13 @@ struct StartView: View {
                 Group{
                     HStack{
                         Text("NIPS")
-                            .font(.custom("NuosuSIL-Regular", size: RatioSize.getResWidth(width: 96)))
+                            .font(.custom(modelData.getTitleFontName(), size: RatioSize.getResWidth(width: 96)))
                             .foregroundColor(.fontColor)
                     }.frame(width: textWidth, alignment: .leading)
                     HStack {
                         Spacer()
                         Text("Hydden")
-                            .font(.custom("NuosuSIL-Regular", size: RatioSize.getResWidth(width: 60)))
+                            .font(.custom(modelData.getTitleFontName(), size: RatioSize.getResWidth(width: 60)))
                             .foregroundColor(.fontColor)
                     }.frame(width: textWidth, alignment: .trailing)
                 }
@@ -64,7 +64,7 @@ struct StartView: View {
                 HStack {
                     Spacer()
                     Text("Chapter \(chapterNumber)")
-                        .font(.custom("NuosuSIL-Regular", size: RatioSize.getResWidth(width: 24)))
+                        .font(.custom(modelData.getTitleFontName(), size: RatioSize.getResWidth(width: 24)))
                         .foregroundColor(.fontColor)
                         .padding(.top, RatioSize.getResheight(height: 30))
                         .onAppear {
@@ -93,7 +93,7 @@ struct StartView: View {
                 HStack {
                     Spacer()
                     Text("\(modelData.chapterNameArray[modelData.currentChapterIndex])")
-                        .font(.custom("NotoSerifKR-Regular", size: RatioSize.getResWidth(width: 20)))
+                        .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
                     Spacer()
                 }
@@ -103,7 +103,7 @@ struct StartView: View {
                 
                 HStack {
                     Spacer()
-                    Text("탭해서 시작하기")
+                    Text("TAP TO START".localized())
                         .font(.custom("Inter-SemiBold", size: RatioSize.getResWidth(width: 20)))
                         .foregroundColor(.tapFontColor)
                         .opacity(tapFontColorOpacity ? 1 : 0)

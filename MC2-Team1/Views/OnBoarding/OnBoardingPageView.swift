@@ -86,7 +86,7 @@ extension OnBoardingPageView{
                 Spacer()
                 Image(systemName: "gearshape.fill")
                     .resizable()
-                    .frame(width: RatioSize.getResWidth(width: 20), height: RatioSize.getResheight(height: 20))
+                    .frame(width: RatioSize.getResWidth(width: 20), height: RatioSize.getResWidth(width: 20))
                     .padding(5)
                     .background(Color.bgColor)
                     .cornerRadius(cornerRadius)
@@ -203,7 +203,7 @@ extension OnBoardingPageView{
                         .overlay(Color.fontColor)
                     HStack{
                         Divider()
-                            .frame(width: RatioSize.getResWidth(width: 1), height: RatioSize.getResheight(height: 5))
+                            .frame(width: RatioSize.getResWidth(width: 1), height: RatioSize.getResWidth(width: 5))
                             .overlay(Color.fontColor)
                     }
                 }
@@ -211,7 +211,7 @@ extension OnBoardingPageView{
                     Text("?")
                         .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
-                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResheight(height: 30))
+                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                         .background(Color.tapFontColor)
                         .cornerRadius(50)
                     
@@ -220,7 +220,7 @@ extension OnBoardingPageView{
                     Text("?")
                         .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
-                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResheight(height: 30))
+                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                         .background(Color.tapFontColor)
                         .cornerRadius(50)
                 }//HStack
@@ -228,7 +228,7 @@ extension OnBoardingPageView{
                 Text("나")
                     .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                     .foregroundColor(.fontColor)
-                    .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResheight(height: 30))
+                    .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                     .background(Color.bgColor)
                     .overlay(
                         RoundedRectangle(cornerRadius: 50)
@@ -284,7 +284,7 @@ extension OnBoardingPageView {
                     Text("?")
                         .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
-                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResheight(height: 30))
+                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                         .background(Color.tapFontColor)
                         .cornerRadius(50)
                     
@@ -293,7 +293,7 @@ extension OnBoardingPageView {
                     Text("?")
                         .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
-                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResheight(height: 30))
+                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                         .background(Color.tapFontColor)
                         .cornerRadius(50)
                 }//HStack
@@ -301,7 +301,7 @@ extension OnBoardingPageView {
                 Text("나")
                     .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                     .foregroundColor(.fontColor)
-                    .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResheight(height: 30))
+                    .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                     .background(Color.bgColor)
                     .overlay(
                         RoundedRectangle(cornerRadius: 50)
@@ -315,7 +315,7 @@ extension OnBoardingPageView {
                 Spacer()
                 Image(systemName: "gearshape.fill")
                     .resizable()
-                    .frame(width: RatioSize.getResWidth(width: 20), height: RatioSize.getResheight(height: 20))
+                    .frame(width: RatioSize.getResWidth(width: 20), height: RatioSize.getResWidth(width: 20))
                     .foregroundColor(.fontColor)
                     .padding()
             }

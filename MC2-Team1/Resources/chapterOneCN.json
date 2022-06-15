@@ -1,0 +1,193 @@
+[
+  {
+    "id": 1,
+    "content": "这是哪里？\n我是睡着了吗？\n就像长时间被困在某处一样，所有的感觉都很迟钝。\n到底发生了什么事情？",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "淡定吧。\n我摇了两下头后，观察了一下周围。\n像涂了漂白剂一样的白色墙壁，散落着未整理的纸张，闪烁的照明灯。\n 消毒药味中掺杂着腥味上来的腥味。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 3
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "视线随着腥味渐渐转移。\n一个人倒在房间的角落里流血不止。",
+    "choices": [
+        {
+            "content" : "太害怕了，无法靠近....",
+            "nextParagraphId" : 4
+        },
+        {
+            "content" : "还活着吗？再靠近一点吧",
+            "nextParagraphId" : 5
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "不是单纯的晕倒。 留了那么多血，已经。。\n这是会死人的地方吗？我该怎么办呢？是谁杀的？头脑不清楚。\n好害怕，很想出去。。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 6
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "苍白的皮肤，好像已经死了。\n他扭曲的表情证明临死之前很痛苦万分。\n到底发生了什么事情，导致这个人死了？\n还有我为什么在这里？",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 6
+        }
+    ]
+  },
+  {
+    "id": 6,
+    "content": "溢出的血味让人感到呕吐。脑海中的耳鸣代替了嗡嗡作响的机器声。\n我闭上了眼睛。\n刚才还在看的红黑斑在闪动。心脏正在狂跳。\n别想了。什么都不要想。。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 7
+        }
+    ]
+  },
+  {
+    "id": 7,
+    "content": "闭上眼睛，停止呼吸，就像进入水中一样，一切都变远了。\n水声。。不知从哪里传来了水声。\n好像是从敞开的门缝里传来的。",
+    "choices": [
+        {
+            "content" : "有人吗？",
+            "nextParagraphId" : 8
+        },
+        {
+            "content" : "要不考进门去看看？",
+            "nextParagraphId" : 8
+        }
+    ]
+  },
+  {
+    "id": 8,
+    "content": "把眼睛凑近狭小的门缝。\n对面墙上有人背着门站着。可能是因为洗手，他稍微低下了腰。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 9
+        }
+    ]
+  },
+  {
+    "id": 9,
+    "content": "发现新人的喜悦也是暂时的。如果那个人杀了刚才的人，那怎么办？\n肚子一阵翻腾。\n由于紧张，抓着门把的手滑倒，门打开了。\n他停止洗手而转身，以半开着的门为界和我的眼睛对视了。",
+    "choices": [
+        {
+            "content" : "怎么办？",
+            "nextParagraphId" : 10
+        },
+        {
+            "content" : "快跑！",
+            "nextParagraphId" : 11,
+            "effectB" : -1,
+            "effectC" : 1
+        }
+    ]
+  },
+  {
+    "id": 10,
+    "content": "该怎么做呢？到底该说什么。。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 11
+        }
+    ]
+  },
+  {
+    "id": 11,
+    "content": "我往后退了一步。没有看到可以去别的地方的门。在苦恼该怎么做的时候，他开口了。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 12
+        }
+    ]
+  },
+  {
+    "id": 12,
+    "content": "\"我还以为您死了呢，幸亏您还活着！您没有不舒服的地方吗？\"\n他若无其事地用手擦洗毛巾而说。他的表情十分担心。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 13
+        }
+    ]
+  },
+  {
+    "id": 13,
+    "content": "\"您虽然可能会感到混乱，但必须尽快逃离这里并逃离。\"",
+    "choices": [
+        {
+            "content" : "到底发生了什么事？",
+            "nextParagraphId" : 14
+        },
+        {
+            "content" : "逃离去哪了呢？",
+            "nextParagraphId" : 14
+        }
+    ]
+  },
+  {
+    "id": 14,
+    "content": "\"详细情况会在躲避的时候再告诉您。现在得赶紧离开这里。\"\n他手忙脚乱地拿着酒精棉、药膏、常备药等说。",
+    "choices": [
+        {
+            "content" : "嗯。。。",
+            "nextParagraphId" : 15
+        },
+        {
+            "content" : "他的话值得相信吗？",
+            "nextParagraphId" : 15,
+            "effectB" : -1,
+            "effectC" : 1
+        }
+    ]
+  },
+  {
+    "id": 15,
+    "content": "他朝我出来的房间那边凝视了一下，面露焦虑的神色而向我伸出了手。\n\"若一直呆在这儿，不知道会发生什么事情。\"\n黑眼珠凝视着我。\n\"请您相信我。\"",
+    "choices": [
+        {
+            "content" : "点头",
+            "nextParagraphId" : 16
+        },
+        {
+            "content" : "犹犹豫豫地抓住他的手",
+            "nextParagraphId" : 16,
+            "effectB" : 1,
+            "effectC" : -1
+        }
+    ]
+  },
+  {
+    "id": 16,
+    "content": "他的表情立刻变得明朗起来，嘴角上露出了微笑。\n\"快出去吧！\"",
+    "choices": [
+        {
+            "content" : "下一章",
+            "nextParagraphId" : -1,
+            "nextChapterIndex" : 1
+        }
+    ]
+  },
+]

@@ -1,0 +1,205 @@
+[
+    {
+        "id": 1,
+        "content": "\"지민씨, 괜찮아요?\"",
+        "choices": [
+            {
+                "content": "네 괜찮아요. 백연우 씨는요?",
+                "nextParagraphId": 2,
+                "effectB": 3,
+                "effectC": -3
+            },
+            {
+                "content": "……",
+                "nextParagraphId": 3,
+                "effectB": -3,
+                "effectC": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": "백연우가 걱정스럽다는 듯이 나를 보다가 시선을 느끼곤 최지원에게 인사했다.",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": "\"안녕하세요, 최지원 책임 연구원이시죠? 주임 연구원 백연우라고 합니다.\"\n\"……\"\n최지원이 경계심 가득한 눈으로 백연우를 응시했다.",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 4
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": "\"어쩌다가 아직까지 여기에 계시게 된 건가요? 연구동에는 대피 경보가 발령되었던 걸로 알고 있는데요?\"\n최지원이 한참 뜸을 들이다가 말했다.\n\"마무리해야 하는 연구에 집중을 하고 있어 경보음을 듣지 못했습니다.\"",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": "\"경보음이 꽤나 시끄러워 들리지 않을 리가 없을 텐데 참 이상하네요.\"\n백연우가 중얼거렸다.",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 6
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": "\"그보다 혹시 의약품을 구할 수 있는 곳이 있을까요? 오는 도중에 살펴봤지만 제대로 된 약품은 보이지 않더군요.\"",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": "백연우의 말에 최지원이 붕대가 감긴 나의 왼손에 시선을 주곤 한숨을 쉬었다.\n\"… 제 연구실로 가시죠.\"",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 8
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "content": "최지원의 연구실은 크진 않았지만 상당히 아늑했다. 연구소 특유의 약품 냄새도 거의 나지 않았고, 정리도 잘 되어 있었다.",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 9
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "content": "\"지민아, 상처가 덧나면 안 되니까 그동안 저기 옆 휴게실에서 잠시 쉬고 있어.\"\n최지원이 나를 보며 말했다.",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 10
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "content": "나는 최지원이 가리키는 문을 열고 방 안으로 들어갔다. 냉장고와 전기 포트, 선반과 수납장. 평범한 휴게실이었다.",
+        "choices": [
+            {
+                "content": "배가 고프니까 뭐라도 먹어야겠어",
+                "nextParagraphId": 11
+            },
+            {
+                "content": "뭐라도 단서가 될 것이 있나 찾아보자",
+                "nextParagraphId": 12
+                
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "content": "나는 음식을 찾기 위해 냉장고를 먼저 열었다. 기대와 달리 냉장고 안은 텅 비어 있었다.",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 13
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "content": "나는 우선 선반을 먼저 살펴보기로 했다. 이쪽 선반에는 잡다한 잡지들뿐이다.",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 13
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "content": "다른 것은 뭐가 있나 살펴보기 위해 냉장고 옆 선반을 열어보자, 알 수 없는 상자 하나가 있었다.",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 14
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "content": "나는 상자의 봉투 안에서 꺼낸 액자 하나와 원통형의 막대를 바라보았다.",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 15
+            }
+        ],
+        "game": "BoxOpen"
+    },
+    {
+        "id": 15,
+        "content": "액자 속의 인물은 왠지 모르게 친근한 느낌이었다. 내가 아는 사람이었을까?",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 16
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "content": "이 막대는 또 뭘까? 생김새를 보아하니 백연우가 말하던 그 치료제 같다.\n막대를 이리저리 기울이며 관찰하고 있던 중, 바깥에서 큰 소리가 들렸다.",
+        "choices": [
+            {
+                "content": "다음으로",
+                "nextParagraphId": 17
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "content": "최지원의 목소리였다. 나가봐야 할 것 같은데, 이 막대는 어떡하지?",
+        "choices": [
+            {
+                "content": "망설임 없이 챙긴다",
+                "nextParagraphId": 18,
+                "effectB": 1,
+                "effectC": -1
+            },
+            {
+                "content": "가져가도 되는지 고민스럽지만 우선 챙겨 본다",
+                "nextParagraphId": 18,
+                "effectB": -1,
+                "effectC": 1
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "content": "나는 문을 열었다.",
+        "choices": [
+            {
+                "content": "다음 챕터로",
+                "nextParagraphId": -1,
+                "nextChapterIndex": 4
+            }
+        ]
+    }
+]

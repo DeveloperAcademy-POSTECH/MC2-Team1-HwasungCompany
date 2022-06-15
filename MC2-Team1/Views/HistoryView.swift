@@ -15,7 +15,7 @@ struct HistoryView: View {
     @AppStorage("paragraphId") var paragraphId: Int = 1
     
     var body: some View {
-        ScrollView {
+        ScrollView(.vertical, showsIndicators: false) {
             ScrollViewReader { proxy in
                 LazyVStack(spacing: 0) {
                     ForEach(0..<modelData.pastParas.count + 1, id: \.self) { index in

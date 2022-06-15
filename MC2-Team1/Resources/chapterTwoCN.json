@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "content": "随着砰的一声，沉重的铁门关上了。\n房间里的铁桌上杂乱无章地摆放着装有不吉利液体的烧杯和积满灰尘的报告。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "将视线转向地面后，看到了看似锋利的玻璃碎片。\n\"烧杯碎了，会有很多玻璃碎片，所以请您注意下。\"\n他放下随身携带的包，开始仔细观察房间的各个角落。",
+    "choices": [
+        {
+            "content" : "这儿到底是哪里？",
+            "nextParagraphId" : 3
+        },
+        {
+            "content" : "这到底是怎么回事？",
+            "nextParagraphId" : 3
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "\"这里是NIPS。是进行国家主导研究的5个研究所之一。\"",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 4
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "\"NIPS大致分为普通人可以出入的普通区和只有所属研究员才能出入的研究区。\n目前普通区被叛军控制，我们需要向研究区方向前进，才能逃出。\"",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 5
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "\"地面上有很多碎玻璃碎片，请小心。\"\n他说起来觉得我的安危比担心恐怖袭击更重要。",
+    "choices": [
+        {
+            "content" : "我是谁？",
+            "nextParagraphId" : 6
+        },
+        {
+            "content" : "您是谁？",
+            "nextParagraphId" : 8
+        }
+    ]
+  },
+  {
+    "id": 6,
+    "content": "\"您的名字是安智敏，今天被邀请参加解剖学演讲。\n很遗憾，演讲虽然中断了。。\"",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 7
+        },
+    ]
+  },
+  {
+    "id": 7,
+    "content": "\"对，看来介绍晚了。\n我是NIPS所属研究员白延宇。\n按照原来的计划，今天要支持您的活动。\"",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 10
+        },
+    ]
+  },
+  {
+    "id": 8,
+    "content": "\"对，看来介绍晚了。\n我是NIPS所属研究员白延宇。\n按照原来的计划，今天要支持您的活动。\"",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 9
+        },
+    ]
+  },
+  {
+    "id": 9,
+    "content": "\"您的名字是安智敏，今天被邀请参加解剖学演讲。\n很遗憾，演讲虽然中断了。。\"",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 10
+        },
+    ]
+  },
+  {
+    "id": 10,
+    "content": "\"研究区内部的大部分人已经撤离，但普通区附近的人门已经。。\n所以刚才还以为您和其他人一起被袭击了。\"",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 11
+        },
+    ]
+  },
+  {
+    "id": 11,
+    "content": "他停下搜查房间而向我靠近。\n\"抱歉。如果当时一直在旁边保护您的话，现在就不会这样。。\"\n他满眼都是负罪责感。",
+    "choices": [
+        {
+            "content" : "真的可以相信他的话吗？",
+            "nextParagraphId" : 12
+        },
+        {
+            "content" : "他真的是研究员吗？",
+            "nextParagraphId" : 12,
+            "effectB" : 1,
+            "effectC" : -1
+        },
+    ]
+  },
+  {
+    "id": 12,
+    "content": "\"只要逃到研究区，政府就承诺会给予帮助，您就可以平安地出去了。\n作为研究员，会尽全力保护您。\"",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 13
+        },
+    ]
+  },
+  {
+    "id": 13,
+    "content": "\"发出警告音后，叛军好像侵略了保安系统，原来的卡钥匙启动不了。\n好像这个房间会有应对紧急状况的万能钥匙。。\"",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 14
+        },
+    ]
+  },
+  {
+    "id": 14,
+    "content": "\"房间挺宽敞的，能帮我一起找一下吗？\"",
+    "choices": [
+        {
+            "content" : "查找左边",
+            "nextParagraphId" : 15
+        },
+        {
+            "content" : "查找右边",
+            "nextParagraphId" : 18
+        },
+    ]
+  },
+  {
+    "id": 15,
+    "content": "左边有书桌和玻璃收纳柜。",
+    "choices": [
+        {
+            "content" : "查找书桌",
+            "nextParagraphId" : 16
+        },
+        {
+            "content" : "查找玻璃收纳柜",
+            "nextParagraphId" : 17
+        },
+    ]
+  },
+  {
+    "id": 16,
+    "content": "桌面上满是文件。这里好像没有，去玻璃收纳柜吧。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 17
+        },
+    ]
+  },
+  {
+    "id": 17,
+    "content": "玻璃收纳柜被锁着。。好像在玻璃的另一边有东西？",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 21
+        },
+    ]
+  },
+  {
+    "id": 18,
+    "content": "右边有公文包和实验台。",
+    "choices": [
+        {
+            "content" : "查找公文包",
+            "nextParagraphId" : 19
+        },
+        {
+            "content" : "查找实验台",
+            "nextParagraphId" : 20
+        },
+    ]
+  },
+  {
+    "id": 19,
+    "content": "这公文包是空着的。这里好像是没有，去实验台吧",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 20
+        },
+    ]
+  },
+  {
+    "id": 20,
+    "content": "实验台上有一个玻璃收纳柜，是锁着的。。好像在收纳柜里有什么东西？",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 21
+        },
+    ],
+  },
+  {
+    "id": 21,
+    "content": "呃，手好像被玻璃碎片划伤了。不知是不是被割的比我想的还要深，血滴都掉下来了。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 22
+        },
+    ],
+    "game": "GlassAnimation"
+  },
+  {
+    "id": 22,
+    "content": "\"您没事吗？！\"\n听到我的声音，白延宇飞快地走了过来。",
+    "choices": [
+        {
+            "content" : "别费心了!",
+            "nextParagraphId" : 23,
+            "effectB" : -3,
+            "effectC" : 3
+        },
+        {
+            "content" : "到底为什么这么善良呢？",
+            "nextParagraphId" : 24,
+            "effectB" : 3,
+            "effectC" : -3
+        },
+    ],
+  },
+  {
+    "id": 23,
+    "content": "我往后一推，白延宇苦涩地说。\n\"即使您不信任我，也需要接受治疗。您也知道这伤口不能加重。\"他小心翼翼地握住了我的手。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 24
+        },
+    ],
+  },
+  {
+    "id": 24,
+    "content": "不知道他在哪里受伤，左手背上有伤痕。他的用酒精消毒后缠绷带的手法非常细致。",
+    "choices": [
+        {
+            "content" : "下一章",
+            "nextParagraphId" : -1,
+            "nextChapterIndex" : 2
+        },
+    ],
+  }
+]

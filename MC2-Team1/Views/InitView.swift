@@ -39,7 +39,6 @@ struct InitView: View {
 }
 
 enum Mode {
-
     case start
     case content
     case bridge

@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "content": "\"其实刚才在休息室找到了治疗剂。\"\n我从口袋里掏出装有红色液体的注射器。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "\"为什么现在才说那个？！快点给我!！\"\n崔智远吓了一跳，急忙地说，把手向我伸向。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 3
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "我把手伸向了崔智远的相反方向。\n\"不会给你的。\"\n崔智远的表情渐渐变得僵硬起来，就突然向我扑上来。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 4
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "虽然差点在躲避时摔倒，但万幸的是白延宇抓住了我。\n在我躲避的同时，崔智远直接摔倒在地。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 5
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "白延宇用随身携带的绷带绑住了崔智远的双手。\n\"智敏！不能相信那个人！\"\n在崔智远大喊大叫的过程中，白延宇拉着他关在了房间里。\n我双腿发软瘫坐在了那个位置上。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 6
+        }
+    ]
+  },
+  {
+    "id": 6,
+    "content": "\"没有受伤吗？\"\n 我摇了摇头。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 7
+        }
+    ]
+  },
+  {
+    "id": 7,
+    "content": "\"真是个可怕的人。。\"\n白延宇凝视着我。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 8
+        }
+    ]
+  },
+  {
+    "id": 1001,
+    "content": "\"那个治疗剂。。能给我吗？\"\n我把治疗剂给他。不知为什么，感觉从手中离开的治疗剂的重量非常重。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 1002
+        }
+    ]
+  },
+  {
+    "id": 1002,
+    "content": "白延宇笑了。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 1003
+        }
+    ]
+  },
+  {
+    "id": 1003,
+    "content": "一瞬间，胳膊上感到一阵疼痛。\n白延宇的手里没有注射器。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 1004
+        }
+    ]
+  },
+  {
+    "id": 1004,
+    "content": "他那明朗的微笑让人毛骨悚然，难道是因为心情所致吗?慌张地望着白延宇。\n视线一转，注射器插在我的胳膊上。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 1005
+        }
+    ]
+  },
+  {
+    "id": 1005,
+    "content": "把治疗剂注射到我。。?到底为什么。。？\n在逐渐淡漠的精神中，我不断地疑问。。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 1006
+        }
+    ]
+  },
+  {
+    "id": 1006,
+    "content": "所有的感觉都消失了。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 1007
+        }
+    ]
+  },
+  {
+    "id": 1007,
+    "content": "在寂静感十足的研究室里，白延宇静静地坐着等待着什么。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 1008
+        }
+    ]
+  },
+  {
+    "id": 1008,
+    "content": "在某个瞬间，非常小的沙沙声驱散了深深的寂静。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 1009
+        }
+    ]
+  },
+  {
+    "id": 1009,
+    "content": "\"智敏。\"\n白延宇以紧张和欢喜混杂的声音小心翼翼地叫着安智敏的名字。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 1010
+        }
+    ]
+  },
+  {
+    "id": 1010,
+    "content": "安智敏慢慢地站了起来。他脸上绽放着微笑。",
+    "choices": [
+        {
+            "content" : "结束",
+            "nextParagraphId" : -1
+        }
+    ]
+  },
+  {
+    "id": 2001,
+    "content": "\"那个治疗剂。。能给我吗？\"\n我为了给他治疗剂而伸出手。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2002
+        }
+    ]
+  },
+  {
+    "id": 2002,
+    "content": "那一瞬间，突然有一种非常奇怪的预感。如果在这里做出错误的判断，似乎永远都会后悔。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2003
+        }
+    ]
+  },
+  {
+    "id": 2003,
+    "content": "突然想起了第一次见到他的那一瞬间。\n他显然，若无其事地，十分淡定地洗着血。为什么现在才记得这么清楚呢？",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2004
+        }
+    ]
+  },
+  {
+    "id": 2004,
+    "content": "没有时间去思考。我不得不做出决定。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2005
+        }
+    ]
+  },
+  {
+    "id": 2005,
+    "content": "在那一瞬间，白延宇发出痛苦的声音，摇摇晃晃。白延宇的胳膊上插着治疗剂。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2006
+        }
+    ]
+  },
+  {
+    "id": 2006,
+    "content": "白延宇倒在了地上。\n困惑、埋怨、悲伤。。看着我的他的眼里含着各种感情。看到白延宇痛苦的样子,心里非常不舒服。\n这是正确的决定吗？",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2007
+        }
+    ]
+  },
+  {
+    "id": 2007,
+    "content": "\"智敏，没事吗？！\"\n崔智远喊道。\n呼出越来越急促的气息的我，在某个瞬间失去了知觉。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2008
+        }
+    ]
+  },
+  {
+    "id": 2008,
+    "content": "时间过了多久呢？我受着脑袋快要爆炸的折磨睁开了眼睛。白延宇还是与我最后记忆中的样子一样倒在地上。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2009
+        }
+    ]
+  },
+  {
+    "id": 2009,
+    "content": "不知从哪里飘来一股不祥的气味，令人毛骨悚然的。。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2010
+        }
+    ]
+  },
+  {
+    "id": 2010,
+    "content": "顺着气味转过头去，就能看到血淋淋地倒下的某人。虽然难以置信，但那肯定是崔智远。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2011
+        }
+    ]
+  },
+  {
+    "id": 2011,
+    "content": "怎么回事？崔智远怎么了。。\n在混乱中，试图用手扶住额头的我瞬间停了下来。我的双手被染红了。",
+    "choices": [
+        {
+            "content" : "继续",
+            "nextParagraphId" : 2012
+        }
+    ]
+  },
+  {
+    "id": 2012,
+    "content": "我只能呆在那里。。希望有人能把我从这场噩梦中救赎我。或者，希望永远闭上眼睛。。",
+    "choices": [
+        {
+            "content" : "结束",
+            "nextParagraphId" : -1
+        }
+    ]
+  }
+]
