@@ -12,17 +12,17 @@ struct CreditView: View {
     @State private var animationEnd = false
     // animation 지속시간
     private let startAnimationDuration = 5.0
-    private let middleAnimationDuration = 7.0
+    private let middleAnimationDuration = 6.0
     private let endAnimationDuration = 0.5
     private let mainFont = "NanumMyeongjo"
-    @Environment(\.colorScheme) var colorScheme: ColorScheme
+    @State var attributedString = AttributedString("화성상사\n\n회장 Woody \n최고학력자 Digi \n영양사 Bethev \n아브 EllyJ \n딱풀 Rang \n원어민 Sophie \n과장 Everett \n\n And you")
     @State var opacity: Double = 0
     
     var body: some View {
         ZStack {
-            Image("EndCreditBackgroud-1")
+            Image("EndCreditBackgroud")
                 .resizable()
-            Text("Hello Woody! \nHello Digi! \nHello Bethev! \nHello EllyJ! \nHello Rang! \nHello Sophie! \nHello Everett! \n\n\n\n Thank you")
+            Text(attributedString)
                 .fontWeight(.bold)
                 .font(.custom(mainFont, size: 35))
                 .multilineTextAlignment(.center)
@@ -33,17 +33,34 @@ struct CreditView: View {
             
             
                 .rotation3DEffect(.degrees(animationEnd ? 0 : 35), axis: (x: 1, y: 0, z: 0))
-                .shadow(color: .gray, radius: 3, x: 0, y: 10)
-                .frame(width: 400, height: animationStart ? 750 : 0)
+                .shadow(color: .gray, radius: 4, x: 0, y: 2)
+                .frame(width: 500, height: animationStart ? 750 : 0)
                 //.animation(Animation.linear(duration: startAnimationDuration), value: opacity)
-                .animation(Animation.linear(duration: animationEnd ? endAnimationDuration : startAnimationDuration))
                 .onAppear() {
-                    self.animationStart.toggle()
-                    opacity = 1
+                    let range = attributedString.range(of: "회장")!
+                    attributedString[range].font = .custom(mainFont, size: 20)
+                    let range1 = attributedString.range(of: "최고학력자")!
+                    attributedString[range1].font = .custom(mainFont, size: 20)
+                    let range2 = attributedString.range(of: "영양사")!
+                    attributedString[range2].font = .custom(mainFont, size: 20)
+                    let range3 = attributedString.range(of: "아브")!
+                    attributedString[range3].font = .custom(mainFont, size: 20)
+                    let range4 = attributedString.range(of: "딱풀")!
+                    attributedString[range4].font = .custom(mainFont, size: 20)
+                    let range5 = attributedString.range(of: "원어민")!
+                    attributedString[range5].font = .custom(mainFont, size: 20)
+                    let range6 = attributedString.range(of: "과장")!
+                    attributedString[range6].font = .custom(mainFont, size: 20)
+                    
+                    withAnimation(.linear(duration: animationEnd ? endAnimationDuration : startAnimationDuration)) {
+                        self.animationStart.toggle()
+                        opacity = 1
+                    }
                     // animation 시간 후 animationEnd true
                     DispatchQueue.main.asyncAfter(deadline: .now() + self.middleAnimationDuration) {
+                        withAnimation {
                             self.animationEnd.toggle()
-                        
+                        }
                     }
             }
         }
