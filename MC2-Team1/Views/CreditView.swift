@@ -21,7 +21,7 @@ struct CreditView: View {
     private let middleAnimationDuration = 6.0
     private let endAnimationDuration = 0.5
     private let mainFont = "NanumMyeongjo"
-    @State var attributedString = AttributedString("화성상사\n\n회장 Woody \n최고학력자 Digi \n영양사 Bethev \n충전 EllyJ \n딱풀 Rang \n원어민 Sophie \n과장 Everett \n\n And you")
+    @State var attributedString = AttributedString("화성상사\n\n회장 Woody \n최고학력자 Digi \n영양사 Bethev \n충전 EllyJ \n글루건 Rang \n원어민 Sophie \n과장 Everett \n\n And you")
     @State var opacity: Double = 0
     
     var body: some View {
@@ -51,7 +51,7 @@ struct CreditView: View {
                     attributedString[range2].font = .custom(mainFont, size: 20)
                     let range3 = attributedString.range(of: "충전")!
                     attributedString[range3].font = .custom(mainFont, size: 20)
-                    let range4 = attributedString.range(of: "딱풀")!
+                    let range4 = attributedString.range(of: "글루건")!
                     attributedString[range4].font = .custom(mainFont, size: 20)
                     let range5 = attributedString.range(of: "원어민")!
                     attributedString[range5].font = .custom(mainFont, size: 20)
