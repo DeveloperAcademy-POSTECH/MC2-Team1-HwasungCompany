@@ -470,6 +470,7 @@
 				C613C43F283E14AC00BCFC82 /* NotoSerifKR-ExtraLight.otf in Resources */,
 				B7690EE62851D157008E81AC /* Inter-SemiBold.ttf in Resources */,
 				3A3C86E82858C1C500F0F8DE /* chapterFiveJP.json in Resources */,
+				113EA7B72859CD7B00D28BD7 /* chapterSixBKR.json in Resources */,
 				3A3C86EA2858D12C00F0F8DE /* chapterSixBJP.json in Resources */,
 				B7FD7D682855C79B006A509E /* PastPara.json in Resources */,
 				3A3C86E428589E0F00F0F8DE /* chapterThreeJP.json in Resources */,
