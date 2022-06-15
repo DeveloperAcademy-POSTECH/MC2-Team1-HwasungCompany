@@ -119,7 +119,7 @@ extension ContentView {
                     Text((modelData.currentChapterIndex == 1 && paragraphId >= 7) || modelData.currentChapterIndex > 1 ? "백":"?")
                         .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
-                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResheight(height: 30))
+                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                         .background(Color.tapFontColor)
                         .cornerRadius(50)
                     
@@ -128,7 +128,7 @@ extension ContentView {
                     Text((modelData.currentChapterIndex == 2 && paragraphId >= 14) || modelData.currentChapterIndex > 2 ? "최":"?")
                         .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
-                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResheight(height: 30))
+                        .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                         .background(Color.tapFontColor)
                         .cornerRadius(50)
                 }//HStack
@@ -136,7 +136,7 @@ extension ContentView {
                 Text("나")
                     .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                     .foregroundColor(.fontColor)
-                    .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResheight(height: 30))
+                    .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                     .background(Color.bgColor)
                     .overlay(
                         RoundedRectangle(cornerRadius: 50)
@@ -153,7 +153,7 @@ extension ContentView {
                 }label: {
                     Image(systemName: "gearshape.fill")
                         .resizable()
-                        .frame(width: RatioSize.getResWidth(width: 20), height: RatioSize.getResheight(height: 20))
+                        .frame(width: RatioSize.getResWidth(width: 20), height: RatioSize.getResWidth(width: 20))
                         .foregroundColor(.fontColor)
                 }
                 .padding()

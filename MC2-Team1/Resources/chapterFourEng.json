@@ -1,0 +1,205 @@
+[
+    {
+        "id": 1,
+        "content": "\"Are you okay, Andrea?\"",
+        "choices": [
+            {
+                "content": "I'm fine. What about you?",
+                "nextParagraphId": 2,
+                "effectB": 3,
+                "effectC": -3
+            },
+            {
+                "content": "……",
+                "nextParagraphId": 3,
+                "effectB": -3,
+                "effectC": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": "Bailey Jones looked worried.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": "Jones talked to Turner.\"Nice to meet you. You must be the head researcher Chris Turner, right? I'm Bailey Jones, a junior researcher from the other department.\"\n\"……\"\nTurner stared at Jones cautiously.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 4
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": "\"How come did you not leave? I thought that the Private Access Area was evacuated.\"\nChris Turner slowly answered.\n\"I had some research work that needed to be done. I couldn't hear the alarm because of that.\"",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": "\"That is weird. The sound must have been really loud.\"\nBailey Jones talked softly, as if they were whispering to themselves.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 6
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": "\"By the way, do you have any proper medicines for wounds? We looked around on our way but we couldn't really find one\"",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": "Chris Turner looked over my wounded hand, and sighed.\n\"…Come with me to my office.\"",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 8
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "content": "Turner's office wasn't that big but was really cozy. I could barely smell the chemicals or anything that reminded me of laboratories.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 9
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "content": "\"Andrea, maybe you could go over to the room next door and take some rest for a few minutes. Don't move too much since you're hurt.\"\nChris Turner looked at me and said.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 10
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "content": "I opened the door that Turner was pointing at, and entered the room. It was a small break room with a fridge, a kettle, and some drawers and cupboards.",
+        "choices": [
+            {
+                "content": "I need to get something to eat",
+                "nextParagraphId": 11
+            },
+            {
+                "content": "Let me see if I can find some clues",
+                "nextParagraphId": 12
+                
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "content": "I opened the fridge to look for some food, but it was empty.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 13
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "content": "I decided to search the drawers first. Well on this side, all I see are some useless magazines.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 13
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "content": "I tried opening a cupboard next to the fridge, and then found a box. I had no idea what it was for.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 14
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "content": "I carefully looked at the frame and a cylinder glass that I found from the envelope inside the box.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 15
+            }
+        ],
+        "game": "BoxOpen"
+    },
+    {
+        "id": 15,
+        "content": "The person inside the picture looked somewhat familiar. Is it someone I knew?",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 16
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "content": "And this glass stick, it looks like it's the cure that Bailey Jones was looking for.\nAs I was holding the stick and looking into it, I heard a voice of someone shouting from the other room.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 17
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "content": "It sounded like Chris Turner was shouting. Well, I should leave now but what about this cylinder?",
+        "choices": [
+            {
+                "content": "Take it right away",
+                "nextParagraphId": 18,
+                "effectB": 1,
+                "effectC": -1
+            },
+            {
+                "content": "Take it while hesitating",
+                "nextParagraphId": 18,
+                "effectB": -1,
+                "effectC": 1
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "content": "And I opened the door.",
+        "choices": [
+            {
+                "content": "To the next chapter",
+                "nextParagraphId": -1,
+                "nextChapterIndex": 4
+            }
+        ]
+    }
+]

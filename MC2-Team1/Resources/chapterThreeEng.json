@@ -1,0 +1,268 @@
+[
+    {
+        "id": 1,
+        "content": "\"It's all good now. It should be fine if the wound remains untouched, but feel free to let me know whenever you feel uncomfortable.\"\nI nodded.",
+        "choices": [
+            {
+                "content": "next",
+                "nextParagraphId": 2
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": "\"Is there any questions you want to ask? About me? Maybe why I didn't left yet?\"\nThey asked me.",
+        "choices": [
+            {
+                "content": "Well, yeah, I'm kinda curious",
+                "nextParagraphId": 3,
+                "effectB": 1,
+                "effectC": -1
+            },
+            {
+                "content": "Well nothing really…",
+                "nextParagraphId": 3,
+                "effectB": -1,
+                "effectC": 1
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": "\"I've been trying to find something. It's actually a cure, but it was developed by some other department so I don't have any idea where I can find it.\"",
+        "choices": [
+            {
+                "content": "A cure?",
+                "nextParagraphId": 4
+            },
+            {
+                "content": "Are they hurt or something",
+                "nextParagraphId": 4,
+                "effectB": 1,
+                "effectC": -1
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": "\"There is this person who means everything to me. They're sick. I really need the cure for them. So I was wondering, if you could do me a small favor.\"",
+        "choices": [
+            {
+                "content": "......",
+                "nextParagraphId": 5
+            },
+            {
+                "content": "Sure, how can I help?",
+                "nextParagraphId": 5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": "\"It's not really like I want you to help me find it. The cure is really important to me but one thing that's more important is to get you out of here safely. So what I want is, maybe if you happen to see it, please just tell me. That's all.\"",
+        "choices": [
+            {
+                "content": "How does it look like?",
+                "nextParagraphId": 6,
+                "effectB": 3,
+                "effectC": -3
+            },
+            {
+                "content": "Well...",
+                "nextParagraphId": 6,
+                "effectB": -1,
+                "effectC": 1
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": "\"It's red and it's liquid. I'm guessing maybe you'll see it inside a sealed glass tube kind of thing. If you ever see something like that, please let me know.\"\n\"Alright, I will.\"",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": "I see a glass door in front. Is it something that I can pass without a card key?\nAs I was walking towards the door, I heard a loud crashing sound from the back.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 8
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "content": "What was a corridor until a few seconds ago was now blocked by some kind of a shutter.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 9
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "content": "\"Andrea? You there?\"\nBailey Jones banged the door from the other side.\n\"Yes, I'm here. What the fuck is this?\"\n\"I was a few steps away from you and all of a sudden this thing just appeared out of nowhere.\"",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 10
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "content": "Is this something that prevents fire? This thing, say a wall, looks really thick and solid.",
+        "choices": [
+            {
+                "content": "I'll try figure out how to open it",
+                "nextParagraphId": 11
+            },
+            {
+                "content": "What the hell should we do now?",
+                "nextParagraphId": 11
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "content": "As I was looking around in panic, someone grabbed my shoulder.\nThe person, without giving me a moment to shout out, started talking urgently, but also quietly.\n\"What are you doing here? Why are you with that person?\"",
+        "choices": [
+            {
+                "content": "Who the fuck are you?",
+                "nextParagraphId": 12
+            },
+            {
+                "content": "Pardon…?",
+                "nextParagraphId": 12
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "content": "They kept on talking without giving me an answer to my question.\n\"Did they tell you that they are a researcher or something?\"\nIs it a question worth answering? I was confused.\n\"Don't you remember anything?\"\nThey stared right into my eyes and asked.\"",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 13
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "content": "\"I have no idea what you are talking about. Please just help me open that damn fire door thing.\"\nI could see the confused face of my own reflected on their glasses.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 14
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "content": "They had a despair in their eyes for a few seconds, but soon started talking again.\n\"Andrea, I don't think you remember now but I should tell you that you and I knew each other for long. My name, do you remember it? It's Chris. Chris Turner.\"",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 15
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "content": "\"You, you had a yellow cat named Amber. Also, you had a job where you taught kids, because you love them. Don't you remember all these things?\"",
+        "choices": [
+            {
+                "content": "It's different from what Jones said",
+                "nextParagraphId": 16
+            },
+            {
+                "content": "What are they talking about?",
+                "nextParagraphId": 16,
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "content": "They continued in a serious manner.\n\"And please, don't trust that dude. I'm not 100% sure but I can tell you that they can put you in a danger.\"",
+        "choices": [
+            {
+                "content": "Do you have any proof",
+                "nextParagraphId": 17
+            },
+            {
+                "content": "What do you mean?",
+                "nextParagraphId": 17,
+                "effectB": -1,
+                "effectC": 3
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "content": "\"I have no idea what they told you, but I'll have to let you know that I am a researcher here and I can help you. Actually I'm the only one to help you. I can't tell you all the details now but I have a reason that I stayed here.\"",
+        "choices": [
+            {
+                "content": "...Let me just open this door first",
+                "nextParagraphId": 18,
+                "effectB": 3,
+                "effectC": -3
+            },
+            {
+                "content": "How are you going to help me?",
+                "nextParagraphId": 20,
+                "effectB": -3,
+                "effectC": 3
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "content": "I closely looked at the shutter. It's a lot of dusts. Well there should be something that opens the door...",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 19
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "content": "Then I found something that seemed like a small but firm lever. I managed to open the door after a few trials.",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 21
+            }
+        ],
+        "game": "PullLeverGame"
+    },
+    {
+        "id": 20,
+        "content": "\"That is…\"",
+        "choices": [
+            {
+                "content": "Next",
+                "nextParagraphId": 21
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "content": "At the very moment, the door was open and the silhouette of Bailey Jones appeared.",
+        "choices": [
+            {
+                "content": "To the next chapter",
+                "nextParagraphId": -1,
+                "nextChapterIndex": 3
+            }
+        ]
+    }
+    
+]
+

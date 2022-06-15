@@ -53,7 +53,7 @@ final class ModelData: ObservableObject {
     @Published var currentChapterIndex = UserDefaults.standard.integer(forKey: "currentChapter") {
         didSet {
             UserDefaults.standard.set(currentChapterIndex, forKey: "currentChapter")
-            
+
             switch currentChapterIndex {
             case 0...5:
                 dotIndex = currentChapterIndex

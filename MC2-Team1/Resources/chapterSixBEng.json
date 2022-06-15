@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "content": "\"Well, actually I found a cure in the break room.\"\nI pulled out the glass cylinder from my pocket.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "\"What? Give me that.\"\nChris Turner said urgently, and stretched their hand towards me.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 3
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "But I stretched mine towards the opposite direction.\n\"I'm not going to give this to you.\"\nTurner stared at me with eyes of anger and despair. And soon after that they ran over to my side trying to snatch the cure.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 4
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "I almost fell down while trying to step back, but Bailey Jones held my arm.\nTurner fell down to the ground right after I stepped back.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 5
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "Jones tied up Turner using the dressing that we got from the other room.\n\"Andrea, please, listen to me.\"\nTurner screamed while Jones was forcing them into a separate room.\nI felt so confused.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 6
+        }
+    ]
+  },
+  {
+    "id": 6,
+    "content": "\"Are you not hurt?\"\n I shook my head.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 7
+        }
+    ]
+  },
+  {
+    "id": 7,
+    "content": "\"That person was insane.\"\nBailey Jones said, staring into my eyes.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 8
+        }
+    ]
+  },
+  {
+    "id": 1001,
+    "content": "\"Can you pass the cure to me?\"\nAnd so I did.\nIt was weird that the weight of the cylinder felt so heavy as I passed it onto them.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 1002
+        }
+    ]
+  },
+  {
+    "id": 1002,
+    "content": "Jones smiled.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 1003
+        }
+    ]
+  },
+  {
+    "id": 1003,
+    "content": "Soon afterwards I had a sudden pain on my arm.\nBailey Jones wasn't holding the glass anymore.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 1004
+        }
+    ]
+  },
+  {
+    "id": 1004,
+    "content": "At that time their smile looked kind of creepy. I stared at them with confusion in my head.\nAs I turned my eyes onto the source of the pain, I found out the cure was injected on my arm.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 1005
+        }
+    ]
+  },
+  {
+    "id": 1005,
+    "content": "The cure… to me? Why…?\nI had a lot of questions to ask with nobody to answer me.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 1006
+        }
+    ]
+  },
+  {
+    "id": 1006,
+    "content": "And everything faded away.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 1007
+        }
+    ]
+  },
+  {
+    "id": 1007,
+    "content": "Bailey Jones is waiting patiently for something in the middle of silence.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 1008
+        }
+    ]
+  },
+  {
+    "id": 1008,
+    "content": "It was a long silence until the moment when they could hear a rustle.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 1009
+        }
+    ]
+  },
+  {
+    "id": 1009,
+    "content": "\"Andea.\"\nJones calls Andrea with a faint nervousness and excitement in their voice.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 1010
+        }
+    ]
+  },
+  {
+    "id": 1010,
+    "content": "Andrea Davies slowly gets up, with a smile on their face.",
+    "choices": [
+        {
+            "content" : "To the beginning",
+            "nextParagraphId" : -1
+        }
+    ]
+  },
+  {
+    "id": 2001,
+    "content": "\"Can you pass the cure to me?\"\nI nodded and decided to hand it over to Jones.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2002
+        }
+    ]
+  },
+  {
+    "id": 2002,
+    "content": "At that very moment, something really tiny, but very strange, came upon my mind. It was really a strange feeling. I knew that if I made a bad decision I would regret forever, without being able to fix it at all.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2003
+        }
+    ]
+  },
+  {
+    "id": 2003,
+    "content": "And I suddenly remembered the first moment that I saw them.\nThey were, washing off blood from their hands, very calmly. How come did I not remember this before?",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2004
+        }
+    ]
+  },
+  {
+    "id": 2004,
+    "content": "There was no time left to think. I had to make a decision.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2005
+        }
+    ]
+  },
+  {
+    "id": 2005,
+    "content": "And that's when I heard Bailey Jones scream out of pain. The cure was injected on their arm.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2006
+        }
+    ]
+  },
+  {
+    "id": 2006,
+    "content": "Jones fell down onto the floor.\nConfusion, resentment, and sorrow... I saw them all in their eyes. Seeing them suffering from pain made me feel so bad.\nWas it really the right decision?",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2007
+        }
+    ]
+  },
+  {
+    "id": 2007,
+    "content": "\"Andrea, are you okay?\"\nI could faintly hear Chris Turner shouting out my name.\nAnd a few seconds later, I blacked out.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2008
+        }
+    ]
+  },
+  {
+    "id": 2008,
+    "content": "I wonder how long I've been asleep. I woke up with a terrible headache. Bailey Jones was lying on the floor just like I remember.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2009
+        }
+    ]
+  },
+  {
+    "id": 2009,
+    "content": "And I could smell something ominous…",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2010
+        }
+    ]
+  },
+  {
+    "id": 2010,
+    "content": "The ominous scent led my attention to someone else, also lying on the floor. And this person was covered with blood. I don't want to believe it, but it was apparently Chris Turner.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2011
+        }
+    ]
+  },
+  {
+    "id": 2011,
+    "content": "What happened, why is Turner...\nI looked around in confusion. And that's when I found my own hands covered with blood.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2012
+        }
+    ]
+  },
+  {
+    "id": 2012,
+    "content": "I couldn't do anything other than just standing there vacantly, hoping someone comes to help me get out of this nightmare. Or hoping maybe I could just fall asleep forever.",
+    "choices": [
+        {
+            "content" : "To the beginning",
+            "nextParagraphId" : -1
+        }
+    ]
+  }
+]

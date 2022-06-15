@@ -1,0 +1,193 @@
+[
+    {
+        "id": 1,
+        "content": "Where am I?\nWas I asleep? For how long?\nI could barely feel anything as if I had been asleep for long.\nWhat has happened?",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 2
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": "Okay, take it easy.\nI looked around in the room, taking a deep breath.\nI see white walls, almost as white as if they had been bleached. I also see piles of papers all over the floor. The light is blinking and I can sense the strong scent of something bloody, mingled with some kind of alcohol.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": "My eyes followed the track of the scent of bloodiness in the air, and there at the end of the track was a person lying on the floor with blood covered all over their body.",
+        "choices": [
+            {
+                "content" : "I'm too scared to get closer",
+                "nextParagraphId" : 4
+            },
+            {
+                "content" : " Are they alive?",
+                "nextParagraphId" : 5
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": "Well, the person must be already dead if they had to bleed that much…\nIs this some kind of place which might threaten my life as well? What should I do? Who killed them? My head was about to explode with all the unanswered questions.\nI’m scared.\nI need to get out of here.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 6
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": "It’s like the pale skin is telling me that the person was already dead.\nI could see that it was a painful death, as they had a frowning face.\nWhat the hell happened here that killed him, and why on earth am I here?",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 6
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": "The bloodiness made me feel so sick. I could hear nothing else but the ringing in my own ears.\nI could still see the bloody redness even after closing my eyes. My heart was pounding like insane.\nOkay, let’s not think of anything for now.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": "It felt like everything was fading away as if I was sunk under water, as I closed my eyes and held my breath.\nWaterdrops… I can hear some water running.\nI figured out that it was coming from the small crack on the door.",
+        "choices": [
+            {
+                "content" : "Was I not alone here?",
+                "nextParagraphId" : 8
+            },
+            {
+                "content" : "Secretly approach the door",
+                "nextParagraphId" : 8
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "content": "As I got closer to the door, I saw someone who was facing away from the door. They were bending their back as if they were washing their hands.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 9
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "content": "I had a sudden relief knowing that I was not the only one here, but soon it turned into a fear. What if that is the person who killed the other one?\nI could feel my own heartbeat, and I accidentally opened the door. It was a mistake due to nervousness.\nThe person stopped all the moves for a second, and slowly turned around. Their eyes were staring right into mine, through the door that was half open.",
+        "choices": [
+            {
+                "content" : "What sould I do?",
+                "nextParagraphId" : 10
+            },
+            {
+                "content" : "I need to run away",
+                "nextParagraphId" : 11,
+                "effectB" : -1,
+                "effectC" : 1
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "content": "Oh god, someone please tell me what I should do…",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 11
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "content": "I stepped backwards a little. I couldn’t find any door that might lead me to some other places. It was then when the person opened their mouth.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 12
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "content": "\"Oh gosh, I'm so glad that you're alive. I thought you were already… Are you okay? Aren't you feeling dizzy or uneasy?\"\nThey said while calmly wiping off the water from their hands onto a towel. Their face looked as if they were worried about me.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 13
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "content": "\"I know it may be really confusing, but we need to get out of here right away. We need to escape.\"",
+        "choices": [
+            {
+                "content" : "Please tell me what happend here",
+                "nextParagraphId" : 14
+            },
+            {
+                "content" : "What? Escape?",
+                "nextParagraphId" : 14
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "content": "\"I will explain the details as we escape. For now we need to get out of this room as soon as possible.\"\nThey said while at the same time packing some alcohol pads, ointments, and pills.",
+        "choices": [
+            {
+                "content" : "……",
+                "nextParagraphId" : 15
+            },
+            {
+                "content" : "How on earth can I trust them?",
+                "nextParagraphId" : 15,
+                "effectB" : -1,
+                "effectC" : 1
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "content": "They glanced at the room that I came from, and gave me their hands with an anxious looking eyes.\n\"Please. I can't guarantee what will happen if you decide to stay here.\"\nTheir black eyes stared right into mine.\n\"Please, trust me.\"",
+        "choices": [
+            {
+                "content" : "Nod",
+                "nextParagraphId" : 16
+            },
+            {
+                "content" : "Reluctantly take their hand",
+                "nextParagraphId" : 16,
+                "effectB" : 1,
+                "effectC" : -1
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "content": "I could see them smiling right away.\n\"Okay, let’s get out of here now.\"",
+        "choices": [
+            {
+                "content" : "To the next chapter",
+                "nextParagraphId" : -1,
+                "nextChapterIndex" : 1
+            }
+        ]
+    },
+]

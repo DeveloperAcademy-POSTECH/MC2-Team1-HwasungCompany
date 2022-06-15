@@ -1,0 +1,205 @@
+[
+    {
+        "id": 1,
+        "content": "\"There is no way I'm giving it to you!\"\nTurner shouted.\nWhat happened while I was in the other room?",
+        "choices": [
+            {
+                "content" : "Look at Bailey Jones",
+                "nextParagraphId" : 3,
+                "effectB" : 1,
+                "effectC" : -1
+            },
+            {
+                "content" : "Ask Chris Turner",
+                "nextParagraphId" : 2,
+                "effectB" : -1,
+                "effectC" : 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": "\"What is it?\"\nBut Turner did not answer.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": "I turned my head towards Jones and looked at them. They sighed and told me.\n\"Well, I think Turner has the cure that I'm looking for, but is refusing to hand it over to me.\"",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 4
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": "\"I told you that it is too risky.\"\n\"Well, I heard that most of the clinical studies have been finalized.\"\n\"That is true, but…!\"\nTurner clenched their fists and frowned.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": "\"…Nothing changes. I can't give it to you. Every single cure has already been disposed of.\"\nChris Turner talked in a low voice.\n\"Disposed of...?\"\n\"That was also the reason why I had to stay.\"",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 6
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": "What did they just say? They disposed of the cure? Then what's this?\nI could still feel the glass stick inside the pocket.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": "Bailey Jones opened their mouth after a short silence.\n\"Why did you have to do that, knowing how many people will be saved due to the cure?\"\n\"I said it was because of the risk that-\"\n\"Isn't it because of the experiment without rightful permission?\"\nChris Turner looked shocked.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 8
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "content": "\"Well, then it was indeed true. I heard the rumor that one of the subject died because of your experiment. Never knew it was true though.\"\n\"That wasn't...!\"\n\"Oh well, if it wasn't a subject, was it a pure civilian?\"",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 9
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "content": "Chris Turner glared at Bailey Jones for a few seconds, with their eyes full of hostility, and said.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 10
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "content": "\"Only the chosen ones are allowed to enter the Private Access Area. It's either a researcher or a subject.\"",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 11
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "content": "\"And there is just one type of subject in the National Institute of Personality Separation. Those who have dual personalities in one body, and one of which turned into a pure evil and is proven to be a great harm to the society.\"",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 12
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "content": "\"Nobody else other than a few head researchers knows about the cure, because of the secret maintenance agreement.\"\n\"……\"",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 13
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "content": "\"You said the cure could save many lives? Well, I have to tell you that what saves people is not the cure but your evil self being removed forever, Jones.\"",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 14
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "content": "What…?",
+        "choices": [
+            {
+                "content" : "Bailey Jones has dual personalities?",
+                "nextParagraphId" : 16,
+                "effectB" : -3,
+                "effectC" : 3
+            },
+            {
+                "content" : "How can I ever believe that?",
+                "nextParagraphId" : 15,
+                "effectB" : 3,
+                "effectC" : -3
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "content": "I don't remember seeing anything evil from them.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 16
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "content": "But what if Turner is telling the truth? Then I cannot hand the cure over to the pure evil.",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 17
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "content": "Who should I trust?",
+        "choices": [
+            {
+                "content" : "Next",
+                "nextParagraphId" : 18
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "content": "Who am I going to give the cure to?",
+        "choices": [
+            {
+                "content" : "Hand it over to Bailey Jones",
+                "nextParagraphId" : -1,
+                "nextChapterIndex" : 5
+                
+            },
+            {
+                "content" : "Hand it over to Chris Turner",
+                "nextParagraphId": -1,
+                "nextChapterIndex": 6
+            }
+        ]
+    },
+]

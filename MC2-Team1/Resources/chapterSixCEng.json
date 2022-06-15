@@ -1,0 +1,343 @@
+[
+  {
+    "id": 1,
+    "content": "No, I can't give this to Bailey Jones.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "\"You said you're going to help me right?\"\nI whispered into Chris Turner's ears as I approached them and handed the cure over. Both Turner and Jones looked at me in confusion.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 3
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "\"When did you get the cure?\"\nBailey Jones looked panicked.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 4
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "\"I had the feeling that I couldn't trust you.\"\nJones indeed seemed to know much about me, but whenever I was with them I felt some kind of weird feeling as if something in my guts was sending me a warn signal.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 5
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "I knew trusting my instincts was not always a wise thing to do, but it seemed like it was the best shot I had for now.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 6
+        }
+    ]
+  },
+  {
+    "id": 6,
+    "content": "They seemed as if they wanted to say some more things but they just turned their head away.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 7
+        }
+    ]
+  },
+  {
+    "id": 7,
+    "content": "\"Andrea!\"\n\"Pass me the cure, Turner.\"\nIt was just a few seconds later when I felt the sudden rush of my own hearbeats, and heard Bailey Jones' voice from right behind.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 8
+        }
+    ]
+  },
+  {
+    "id": 8,
+    "content": "I felt something sharp on my neck.\nIt was a piece of a broken glass.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 9
+        }
+    ]
+  },
+  {
+    "id": 9,
+    "content": "I could barely breathe, knowing that my life was at stake.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 10
+        }
+    ]
+  },
+  {
+    "id": 10,
+    "content": "\"Bear with. You're going to remember everything soon.\"\nJones whispered something I couldn't understand.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 11
+        }
+    ]
+  },
+  {
+    "id": 11,
+    "content": "\"Oh, Andrea.\"\n\"You're gonna pass me the cure, and I'm going to let Andrea go.\"\nNo. I silently said it, looking into Chris Turner's eyes. They looked so confused.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 12
+        }
+    ]
+  },
+  {
+    "id": 12,
+    "content": "And at that moment I had a sudden realization that Jones has no intention to hurt me. They were holding the broken piece of glass but that was all. They were not pressing it against my neck.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 13
+        }
+    ]
+  },
+  {
+    "id": 13,
+    "content": "I did not feel the glass touching my neck.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 14
+        }
+    ]
+  },
+  {
+    "id": 14,
+    "content": "Alright, this person is not going to kill me.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 15
+        }
+    ]
+  },
+  {
+    "id": 15,
+    "content": "Trying to make sure, I intentionally pulled their arm closer to my neck, and they seemed bewildered. It was the only chance. I managed to push them away.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 16
+        }
+    ]
+  },
+  {
+    "id": 16,
+    "content": "\"Now!\"\nChris Turner ran over to me and Jones and injected the cure on Jones' arm.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 17
+        }
+    ]
+  },
+  {
+    "id": 17,
+    "content": "Bailey Jones looked at me, stumbled, and fell onto the floor.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 18
+        }
+    ]
+  },
+  {
+    "id": 18,
+    "content": "\"I just wanted to get you back...\"\nThey were frowning, but it rather seemed because of sadness than pain.\nAnd I felt like I saw this scene before.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 19
+        }
+    ]
+  },
+  {
+    "id": 19,
+    "content": "'Andrea.'\nI think I heard Jones calling my name.\nThe dejavu made me feel so exhausted that I fell down.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 20
+        }
+    ]
+  },
+  {
+    "id": 20,
+    "content": "'What was it?'\nI had a short vision that Bailey Jones was in front of me. What is it, did I really know Jones?",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 21
+        }
+    ]
+  },
+  {
+    "id": 21,
+    "content": "\"Andrea, are you okay?\"\nChris Turner came to me to see if I was okay.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 22
+        }
+    ]
+  },
+  {
+    "id": 22,
+    "content": "\"We can make it out safely now.\"\nTurner seemed relieved. They hugged me.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 23
+        }
+    ]
+  },
+  {
+    "id": 23,
+    "content": "What if Turner was lying? What if I made a terrible decision? What's going to happen to Jones now?",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 24
+        }
+    ]
+  },
+  {
+    "id": 24,
+    "content": "And what's going to happen to me?",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 25
+        }
+    ]
+  },
+  {
+    "id": 25,
+    "content": "All these questions made me feel uneasy and extremely anxious.\n\"Andrea…!\"\nI could barely hear the voice as if I was sunk under water. And I think I saw someone smiling right before I closed my eyes.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 26
+        }
+    ]
+  },
+  {
+    "id": 26,
+    "content": "Someone who has been collapsed on the floor got up slowly with a confused face.\nThey detected another body across the room.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 27
+        }
+    ]
+  },
+  {
+    "id": 27,
+    "content": "Being surprised, they looked around to see what was going on",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 28
+        }
+    ]
+  },
+  {
+    "id": 28,
+    "content": "\"You're awake! What a relief.\"\nThey turned their eyes to the direction of the somewhat familiar voice. The owner of the voice came and sat down in front of them.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 29
+        }
+    ]
+  },
+  {
+    "id": 29,
+    "content": "\"Nice to meet you. You're Bailey Jones, who was invited to deliver a lecture on anatomy today at NIPS. Unfortunately it had to be cancelled due to the rebel forces attacks.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 30
+        }
+    ]
+  },
+  {
+    "id": 30,
+    "content": "\"If you're suffering from a memory loss, don't be too worried. It's a temporary side effect of the medicine that you took. While you were fainted I injected you some tranquilizer.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 31
+        }
+    ]
+  },
+  {
+    "id": 31,
+    "content": "\"Oh, excuse me for the late introduction. I am Andrea Davies, a researcher of NIPS. I was supposed to be your assistant for today's lecture.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 32
+        }
+    ]
+  },
+  {
+    "id": 32,
+    "content": "\"We're going to be safe once we reach the exit at the Private Access Area. The government has promised to help us. I will try my best to protect you and help you escape safely.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 33
+        }
+    ]
+  },
+  {
+    "id": 33,
+    "content": "Andrea Davies smiled at Bailey Jones.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 34
+        }
+    ]
+  },
+  {
+    "id": 34,
+    "content": "\"Shall we go?\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : -1,
+            "nextChapterIndex" : -1
+        }
+    ]
+  },
+]

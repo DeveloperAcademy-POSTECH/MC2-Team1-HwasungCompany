@@ -13,8 +13,22 @@
 		05FB2E0F285710360089359B /* chapterSixB.json in Resources */ = {isa = PBXBuildFile; fileRef = 05FB2E0E285710360089359B /* chapterSixB.json */; };
 		05FB2E35285884660089359B /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB2E34285884660089359B /* CreditView.swift */; };
 		11139EBB28570D5B00EF6FD1 /* chapterFive.json in Resources */ = {isa = PBXBuildFile; fileRef = 11139EBA28570D5B00EF6FD1 /* chapterFive.json */; };
+		11F4C4022859A509002CE9F4 /* chapterFiveEng.json in Resources */ = {isa = PBXBuildFile; fileRef = 11F4C4002859A509002CE9F4 /* chapterFiveEng.json */; };
+		11F4C4032859A509002CE9F4 /* chapterFourEng.json in Resources */ = {isa = PBXBuildFile; fileRef = 11F4C4012859A509002CE9F4 /* chapterFourEng.json */; };
+		11F4C4062859A520002CE9F4 /* chapterSixBEng.json in Resources */ = {isa = PBXBuildFile; fileRef = 11F4C4042859A520002CE9F4 /* chapterSixBEng.json */; };
+		11F4C4072859A520002CE9F4 /* chapterOneEng.json in Resources */ = {isa = PBXBuildFile; fileRef = 11F4C4052859A520002CE9F4 /* chapterOneEng.json */; };
+		11F4C40B2859A532002CE9F4 /* chapterThreeEng.json in Resources */ = {isa = PBXBuildFile; fileRef = 11F4C4082859A532002CE9F4 /* chapterThreeEng.json */; };
+		11F4C40C2859A532002CE9F4 /* chapterTwoEng.json in Resources */ = {isa = PBXBuildFile; fileRef = 11F4C4092859A532002CE9F4 /* chapterTwoEng.json */; };
+		11F4C40D2859A532002CE9F4 /* chapterSixCEng.json in Resources */ = {isa = PBXBuildFile; fileRef = 11F4C40A2859A532002CE9F4 /* chapterSixCEng.json */; };
 		37D9E2AE2851CA31005BB908 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9E2AD2851CA31005BB908 /* DotView.swift */; };
 		37D9E2B828570CBC005BB908 /* chapterThree.json in Resources */ = {isa = PBXBuildFile; fileRef = 37D9E2B728570CBC005BB908 /* chapterThree.json */; };
+		3A3A900228587A3100375C7D /* chapterOneJP.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A900128587A3100375C7D /* chapterOneJP.json */; };
+		3A3C86E228589A6100F0F8DE /* chapterTwoJP.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C86E128589A6100F0F8DE /* chapterTwoJP.json */; };
+		3A3C86E428589E0F00F0F8DE /* chapterThreeJP.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C86E328589E0B00F0F8DE /* chapterThreeJP.json */; };
+		3A3C86E62858B69100F0F8DE /* chapterFourJP.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C86E52858B69100F0F8DE /* chapterFourJP.json */; };
+		3A3C86E82858C1C500F0F8DE /* chapterFiveJP.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C86E72858C1C500F0F8DE /* chapterFiveJP.json */; };
+		3A3C86EA2858D12C00F0F8DE /* chapterSixBJP.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C86E92858D12C00F0F8DE /* chapterSixBJP.json */; };
+		3A3C86EC2858E1F400F0F8DE /* chapterSixCJP.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C86EB2858E1F400F0F8DE /* chapterSixCJP.json */; };
 		3AA9DFD42851CADD00365420 /* GlassAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9DFD32851CADD00365420 /* GlassAnimationView.swift */; };
 		3AA9DFEB2851DCEC00365420 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9DFEA2851DCEC00365420 /* HapticManager.swift */; };
 		3AA9DFF028532FE300365420 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9DFEF28532FE300365420 /* Constants.swift */; };
@@ -64,8 +78,22 @@
 		05FB2E0E285710360089359B /* chapterSixB.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterSixB.json; sourceTree = "<group>"; };
 		05FB2E34285884660089359B /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
 		11139EBA28570D5B00EF6FD1 /* chapterFive.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterFive.json; sourceTree = "<group>"; };
+		11F4C4002859A509002CE9F4 /* chapterFiveEng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterFiveEng.json; sourceTree = "<group>"; };
+		11F4C4012859A509002CE9F4 /* chapterFourEng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterFourEng.json; sourceTree = "<group>"; };
+		11F4C4042859A520002CE9F4 /* chapterSixBEng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterSixBEng.json; sourceTree = "<group>"; };
+		11F4C4052859A520002CE9F4 /* chapterOneEng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterOneEng.json; sourceTree = "<group>"; };
+		11F4C4082859A532002CE9F4 /* chapterThreeEng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterThreeEng.json; sourceTree = "<group>"; };
+		11F4C4092859A532002CE9F4 /* chapterTwoEng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterTwoEng.json; sourceTree = "<group>"; };
+		11F4C40A2859A532002CE9F4 /* chapterSixCEng.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterSixCEng.json; sourceTree = "<group>"; };
 		37D9E2AD2851CA31005BB908 /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
 		37D9E2B728570CBC005BB908 /* chapterThree.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterThree.json; sourceTree = "<group>"; };
+		3A3A900128587A3100375C7D /* chapterOneJP.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chapterOneJP.json; sourceTree = "<group>"; };
+		3A3C86E128589A6100F0F8DE /* chapterTwoJP.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterTwoJP.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		3A3C86E328589E0B00F0F8DE /* chapterThreeJP.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterThreeJP.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		3A3C86E52858B69100F0F8DE /* chapterFourJP.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterFourJP.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		3A3C86E72858C1C500F0F8DE /* chapterFiveJP.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterFiveJP.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		3A3C86E92858D12C00F0F8DE /* chapterSixBJP.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterSixBJP.json; sourceTree = "<group>"; };
+		3A3C86EB2858E1F400F0F8DE /* chapterSixCJP.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterSixCJP.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		3AA9DFD32851CADD00365420 /* GlassAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassAnimationView.swift; sourceTree = "<group>"; };
 		3AA9DFEA2851DCEC00365420 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		3AA9DFEF28532FE300365420 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -143,6 +171,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		3A3A9000285879E200375C7D /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		B7690F12285322CE008E81AC /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +249,7 @@
 				C6E1B9A6283B772E00EEC6F1 /* MC2-Team1 */,
 				C6E1B9A5283B772E00EEC6F1 /* Products */,
 				C66C56DE2844A71900BDC0CC /* Frameworks */,
+				3A3A9000285879E200375C7D /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -263,14 +299,30 @@
 			children = (
 				058249AB2854DE9800EC0832 /* openBox.json */,
 				C6E1B9B9283B77C100EEC6F1 /* chapterOne.json */,
+				C6AE2956285705CA00E9F39F /* chapterTwo.json */,
 				37D9E2B728570CBC005BB908 /* chapterThree.json */,
 				D4EE46C12857107400C608DA /* chapterFour.json */,
+				11F4C4002859A509002CE9F4 /* chapterFiveEng.json */,
+				11F4C40A2859A532002CE9F4 /* chapterSixCEng.json */,
+				11F4C4082859A532002CE9F4 /* chapterThreeEng.json */,
+				11F4C4092859A532002CE9F4 /* chapterTwoEng.json */,
+				11F4C4052859A520002CE9F4 /* chapterOneEng.json */,
+				11F4C4042859A520002CE9F4 /* chapterSixBEng.json */,
+				11F4C4012859A509002CE9F4 /* chapterFourEng.json */,
 				C6AE2956285705CA00E9F39F /* chapterTwo.json */,
 				05FB2E0E285710360089359B /* chapterSixB.json */,
 				11139EBA28570D5B00EF6FD1 /* chapterFive.json */,
+				05FB2E0E285710360089359B /* chapterSixB.json */,
+				B70C7352285705A6009F8D61 /* chapterSixC.json */,
 				C613C434283E108A00BCFC82 /* fonts */,
 				B7FD7D672855C79B006A509E /* PastPara.json */,
-				B70C7352285705A6009F8D61 /* chapterSixC.json */,
+				3A3A900128587A3100375C7D /* chapterOneJP.json */,
+				3A3C86E128589A6100F0F8DE /* chapterTwoJP.json */,
+				3A3C86E328589E0B00F0F8DE /* chapterThreeJP.json */,
+				3A3C86E52858B69100F0F8DE /* chapterFourJP.json */,
+				3A3C86E72858C1C500F0F8DE /* chapterFiveJP.json */,
+				3A3C86E92858D12C00F0F8DE /* chapterSixBJP.json */,
+				3A3C86EB2858E1F400F0F8DE /* chapterSixCJP.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -339,22 +391,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F4C4062859A520002CE9F4 /* chapterSixBEng.json in Resources */,
+				11F4C40D2859A532002CE9F4 /* chapterSixCEng.json in Resources */,
+				11F4C40B2859A532002CE9F4 /* chapterThreeEng.json in Resources */,
+				11F4C40C2859A532002CE9F4 /* chapterTwoEng.json in Resources */,
 				D4EE46BC2855DE7800C608DA /* NanumMyeongjo.ttf in Resources */,
 				C613C43D283E14AC00BCFC82 /* NotoSerifKR-Black.otf in Resources */,
 				B7690F17285325CA008E81AC /* NuosuSIL-Regular.ttf in Resources */,
 				B70C7353285705A6009F8D61 /* chapterSixC.json in Resources */,
 				D4EE46BB2855DE7800C608DA /* NanumMyeongjoExtraBold.ttf in Resources */,
+				3A3C86EC2858E1F400F0F8DE /* chapterSixCJP.json in Resources */,
 				C613C43E283E14AC00BCFC82 /* NotoSerifKR-Bold.otf in Resources */,
+				3A3C86E228589A6100F0F8DE /* chapterTwoJP.json in Resources */,
 				11139EBB28570D5B00EF6FD1 /* chapterFive.json in Resources */,
 				C613C43F283E14AC00BCFC82 /* NotoSerifKR-ExtraLight.otf in Resources */,
 				B7690EE62851D157008E81AC /* Inter-SemiBold.ttf in Resources */,
+				3A3C86E82858C1C500F0F8DE /* chapterFiveJP.json in Resources */,
+				3A3C86EA2858D12C00F0F8DE /* chapterSixBJP.json in Resources */,
 				B7FD7D682855C79B006A509E /* PastPara.json in Resources */,
+				3A3C86E428589E0F00F0F8DE /* chapterThreeJP.json in Resources */,
 				C613C440283E14AC00BCFC82 /* NotoSerifKR-Light.otf in Resources */,
 				37D9E2B828570CBC005BB908 /* chapterThree.json in Resources */,
+				11F4C4072859A520002CE9F4 /* chapterOneEng.json in Resources */,
+				11F4C4032859A509002CE9F4 /* chapterFourEng.json in Resources */,
 				C613C441283E14AC00BCFC82 /* NotoSerifKR-Medium.otf in Resources */,
 				C6AE2957285705CA00E9F39F /* chapterTwo.json in Resources */,
+				11F4C4022859A509002CE9F4 /* chapterFiveEng.json in Resources */,
 				C613C442283E14AC00BCFC82 /* NotoSerifKR-Regular.otf in Resources */,
+				3A3C86E62858B69100F0F8DE /* chapterFourJP.json in Resources */,
 				05FB2E0F285710360089359B /* chapterSixB.json in Resources */,
+				3A3A900228587A3100375C7D /* chapterOneJP.json in Resources */,
 				058249AC2854DE9800EC0832 /* openBox.json in Resources */,
 				C613C443283E14AC00BCFC82 /* NotoSerifKR-SemiBold.otf in Resources */,
 				C6E1B9BA283B77C100EEC6F1 /* chapterOne.json in Resources */,
@@ -525,7 +591,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MC2-Team1/Preview Content\"";
-				DEVELOPMENT_TEAM = 76AJ433CP5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MC2-Team1/Info.plist";
@@ -557,7 +623,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MC2-Team1/Preview Content\"";
-				DEVELOPMENT_TEAM = 76AJ433CP5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MC2-Team1/Info.plist";

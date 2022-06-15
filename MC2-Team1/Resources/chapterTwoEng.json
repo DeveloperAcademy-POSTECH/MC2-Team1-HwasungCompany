@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "content": "The metal door was slam shut.\nOn the metal desk in the room were beakers filled with unidentified materials and papers on dust.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 2
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "I turned my eyes onto the floor, and there were pieces of broken glasses.\n\"Please watch yourself.\"\nThey placed their baggage on the desk and carefully looked around the room.",
+    "choices": [
+        {
+            "content" : "What is this place?",
+            "nextParagraphId" : 3
+        },
+        {
+            "content" : "What the hell is going on?",
+            "nextParagraphId" : 3
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "\"This place is called NIPS. It's one of the five national institutes founded for the government's projects.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 4
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "\"NIPS is divided into two parts, the General Access Area and the Private Access Area.\nWe have to go to the Private Access Area because the General one is already taken by the rebel forces.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 5
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "\"Be careful of all those broken glass pieces.\"\nThey said as if they were more worried about me than the fear of military acts.",
+    "choices": [
+        {
+            "content" : "Who am I?",
+            "nextParagraphId" : 6
+        },
+        {
+            "content" : "Who are you?",
+            "nextParagraphId" : 8
+        }
+    ]
+  },
+  {
+    "id": 6,
+    "content": "\"Your name is Andrea Davies. You were invited to lead the lecture on anatomy today, but it had to be cancelled.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 7
+        },
+    ]
+  },
+  {
+    "id": 7,
+    "content": "\"And I'm Bailey Jones, one of the researchers of the institute.\nI was supposed to be your assistant for today's lecture.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 10
+        },
+    ]
+  },
+  {
+    "id": 8,
+    "content": "\"Sorry for the late introduction.\nI'm Bailey Jones, one of the researchers of the institute.\nI was supposed to be your assistant for today's lecture.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 9
+        },
+    ]
+  },
+  {
+    "id": 9,
+    "content": "\"And your name is Andrea Davies. You were invited to lead the lecture on anatomy today, but it had to be cancelled.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 10
+        },
+    ]
+  },
+  {
+    "id": 10,
+    "content": "\"Everybody in the Private Access Area has safely escaped, but those in the General one were...\nI was feeling so hopeless.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 11
+        },
+    ]
+  },
+  {
+    "id": 11,
+    "content": "They came closer to me with eyes of remorse.\n\"I apologize. I should have looked more carefully.\"",
+    "choices": [
+        {
+            "content" : "Is it okay to trust this person?",
+            "nextParagraphId" : 12
+        },
+        {
+            "content" : "They sound like a real researcher",
+            "nextParagraphId" : 12,
+            "effectB" : 1,
+            "effectC" : -1
+        },
+    ]
+  },
+  {
+    "id": 12,
+    "content": "\"We'll be safe once we reach the Private Access Area.\nThe government will be helping us after that.\nI promise you I will do my best to make sure you escape safely.\"",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 13
+        },
+    ]
+  },
+  {
+    "id": 13,
+    "content": "\"And we have a minor problem. My card key is not working at the moment. I guess the rebel forces occupied the system. But I'm sure there will be a master key somewhere in this room which will work even in emergency situations.\"",
+    "choices": [
+        {
+            "content" : "next",
+            "nextParagraphId" : 14
+        },
+    ]
+  },
+  {
+    "id": 14,
+    "content": "\"It's a spacious room. Could you help me out finding the key?\"",
+    "choices": [
+        {
+            "content" : "Search the left side of the room",
+            "nextParagraphId" : 15
+        },
+        {
+            "content" : "Search the right side of the room",
+            "nextParagraphId" : 18
+        },
+    ]
+  },
+  {
+    "id": 15,
+    "content": "I see a desk and a sideboard made of glass.",
+    "choices": [
+        {
+            "content" : "Search the desk",
+            "nextParagraphId" : 16
+        },
+        {
+            "content" : "Search the sideboard",
+            "nextParagraphId" : 17
+        },
+    ]
+  },
+  {
+    "id": 16,
+    "content": "The table is full of papers. I guess I got the wrong place. Let me check the glass closet then.",
+    "choices": [
+        {
+            "content" : "next",
+            "nextParagraphId" : 17
+        },
+    ]
+  },
+  {
+    "id": 17,
+    "content": "The sideboard is locked, but I can see something through the glass door.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 21
+        },
+    ]
+  },
+  {
+    "id": 18,
+    "content": "I see a suitcase and an experiment stand.",
+    "choices": [
+        {
+            "content" : "Look inside the suitcase",
+            "nextParagraphId" : 19
+        },
+        {
+            "content" : "Search the experiment stand",
+            "nextParagraphId" : 20
+        },
+    ]
+  },
+  {
+    "id": 19,
+    "content": "The suitcase turned out to be empty. Maybe I should check the experiment stand",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 20
+        },
+    ]
+  },
+  {
+    "id": 20,
+    "content": "I see a small glass drawer on the stand, but it seems to be locked. I think I see something inside it.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 21
+        },
+    ],
+  },
+  {
+    "id": 21,
+    "content": "Oh crap, I guess I cut my finger while breaking the glass.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 22
+        },
+    ],
+    "game": "GlassAnimation"
+  },
+  {
+    "id": 22,
+    "content": "\"Are you okay?\"\nBailey Jones ran to my side of the room after they heard me scream.",
+    "choices": [
+        {
+            "content" : "It's none of your business",
+            "nextParagraphId" : 23,
+            "effectB" : -5,
+            "effectC" : 3
+        },
+        {
+            "content" : "Why is this person so caring?",
+            "nextParagraphId" : 24,
+            "effectB" : 3,
+            "effectC" : -3
+        },
+    ],
+  },
+  {
+    "id": 23,
+    "content": "\n\"Even if you can't trust me, you need some treatment so that you don't get infected on the wound.\"\nBailey Jones took my hand with a bitter but caring voice.",
+    "choices": [
+        {
+            "content" : "Next",
+            "nextParagraphId" : 24
+        },
+    ],
+  },
+  {
+    "id": 24,
+    "content": "Their left hand was wounded too. I wonder if they got injured like I did. They applied some alcohol on my wound and wrapped it with a dressing. Their touch was very gentle and tenderly.",
+    "choices": [
+        {
+            "content" : "To the next chapter",
+            "nextParagraphId" : -1,
+            "nextChapterIndex" : 2
+        },
+    ],
+  }
+]

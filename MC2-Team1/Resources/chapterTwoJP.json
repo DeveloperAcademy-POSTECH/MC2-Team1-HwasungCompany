@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "content": "ドカンという音とともにどっしりとした鉄門が閉まった。\n部屋の鉄製机の上には不吉な液体が入ったビーカーとほこりが積もった報告書が乱雑に散らばっている。",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 2
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "床に視線を向けると、鋭く見えるガラスの欠片が見えた。\n「ビーカーが割れてガラスの破片が多いので気をつけてください。」\n彼は持ってきたかばんを置いて部屋の隅々を注意深く観察し始めた。",
+    "choices": [
+        {
+            "content" : "ここは一体何処ですか?",
+            "nextParagraphId" : 3
+        },
+        {
+            "content" : "一体これはどういうことですか?",
+            "nextParagraphId" : 3
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "「ここはNIPSです。 国家主導の研究を行う5つの研究所のうちの一つです。」",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 4
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "「NIPSは一般人の出入りが可能な一般棟と所属研究員の出入りのみ可能な研究棟に分けられます。\n一般棟の領域は反軍によって掌握された状態なので脱出するためには研究棟の方に進まなければなりません。」",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 5
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "「それより床に割れたガラスの破片が多いので気をつけてください。」\n彼はテロの心配よりは私の安全が優先であるかのように言った。",
+    "choices": [
+        {
+            "content" : "私は誰ですか?",
+            "nextParagraphId" : 6
+        },
+        {
+            "content" : "あなたは誰ですか?",
+            "nextParagraphId" : 8
+        }
+    ]
+  },
+  {
+    "id": 6,
+    "content": "「あなたの名前はアンジミン。\n今日解剖学講演のために招待された方です。残念ながら講演は中止になりましたが。」",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 7
+        },
+    ]
+  },
+  {
+    "id": 7,
+    "content": "「紹介が遅くなりました。\n私はNIPS所属の研究員ペクヨンウです。\n元通りなら今日ジミンさんのサポート役になった予定でした」",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 10
+        },
+    ]
+  },
+  {
+    "id": 8,
+    "content": "「紹介が遅くなりました。\n私はNIPS所属の研究員ペクヨンウです。\n元通りなら今日ジミンさんのサポート役になった予定でした」",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 9
+        },
+    ]
+  },
+  {
+    "id": 9,
+    "content": "「そしてあなたの名前はアンジミン。\n今日解剖学講演のために招待された方です。残念ながら講演は中止になりましたが。」",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 10
+        },
+    ]
+  },
+  {
+    "id": 10,
+    "content": "「研究棟の内部にいたほとんどの人は避難が完了しましたが、一般棟にいた方はすでに… それであなたもさっき他の方と一緒に襲撃されたと思って···」",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 11
+        },
+    ]
+  },
+  {
+    "id": 11,
+    "content": "彼は部屋の捜索を止めて私の近くに近づいてきた.\n「すみません。私がもう少し注意深く調べていたら、このように急いで研究棟の方に来なくてもよかったのに···」\n罪悪感に満ちた目だった。",
+    "choices": [
+        {
+            "content" : "このまま信じて良いのか?",
+            "nextParagraphId" : 12
+        },
+        {
+            "content" : "本当の研究員か？",
+            "nextParagraphId" : 12,
+            "effectB" : 1,
+            "effectC" : -1
+        },
+    ]
+  },
+  {
+    "id": 12,
+    "content": "「研究棟の方に脱出さえすれば、政府が助けると約束したので、このまま帰らずに進めば、無事に出られるはずです。\n研究員として出る前まで最善を尽くしてジミンさんを保護します。」",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 13
+        },
+    ]
+  },
+  {
+    "id": 13,
+    "content": "「非常宣言後、反軍側でセキュリティシステムを占拠したのか、元々持っていたカードキーが作動しませんね。\n確かにこの部屋にも非常事態に備えてマスターキーがあるはずですが···」",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 14
+        },
+    ]
+  },
+  {
+    "id": 14,
+    "content": "「部屋がかなり広いので、一緒に探していただけますか？」",
+    "choices": [
+        {
+            "content" : "左を探す",
+            "nextParagraphId" : 15
+        },
+        {
+            "content" : "右を探す",
+            "nextParagraphId" : 18
+        },
+    ]
+  },
+  {
+    "id": 15,
+    "content": "左側に机とガラスの収納棚がある。",
+    "choices": [
+        {
+            "content" : "机を探索する",
+            "nextParagraphId" : 16
+        },
+        {
+            "content" : "ガラスの収納棚を探索する",
+            "nextParagraphId" : 17
+        },
+    ]
+  },
+  {
+    "id": 16,
+    "content": "机の上が書類で一杯だ。どうやらここにはないようだ。ガラスの収納棚を探してみよう。",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 17
+        },
+    ]
+  },
+  {
+    "id": 17,
+    "content": "ガラスの収納棚が閉まっている。収納棚越しに何かが見える。",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 21
+        },
+    ]
+  },
+  {
+    "id": 18,
+    "content": "右側に書類かばんと実験台がある。",
+    "choices": [
+        {
+            "content" : "書類かばんを探索する",
+            "nextParagraphId" : 19
+        },
+        {
+            "content" : "実験台を探索する",
+            "nextParagraphId" : 20
+        },
+    ]
+  },
+  {
+    "id": 19,
+    "content": "書類かばんの中が空っぽだ. ここにはないようだ。 実験台を調べてみよう。",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 20
+        },
+    ]
+  },
+  {
+    "id": 20,
+    "content": "実験台の上にガラスの収納棚がある。収納庫は閉まっていた。収納棚越しに何かが見える。",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 21
+        },
+    ],
+  },
+  {
+    "id": 21,
+    "content": "うっ、ガラスの破片で手が切れたようだ。 思ったより深く切られたのか血が落ちた。",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 22
+        },
+    ],
+    "game": "GlassAnimation"
+  },
+  {
+    "id": 22,
+    "content": "「大丈夫ですか？」\n私の声を聞いてペク·ヨヌが近づいてきた。",
+    "choices": [
+        {
+            "content" : "気にしないでください!",
+            "nextParagraphId" : 23,
+            "effectB" : -5,
+            "effectC" : 3
+        },
+        {
+            "content" : "なんでこんなに親切なんだろう？",
+            "nextParagraphId" : 24,
+            "effectB" : 3,
+            "effectC" : -3
+        },
+    ],
+  },
+  {
+    "id": 23,
+    "content": "私が体を後ろに下げると、ペク·ヨンウは苦々しく話した。\n「私を信頼できなくても治療はしなければなりません。\n傷がひどくなったらいけないから···」\nペク·ヨンウが慎重に私の手を握った。",
+    "choices": [
+        {
+            "content" : "次に",
+            "nextParagraphId" : 24
+        },
+    ],
+  },
+  {
+    "id": 24,
+    "content": "彼もどこかでけがをしたのか、左手の甲に傷がついていた。 アルコールで消毒し、包帯を巻く手が繊細だった。",
+    "choices": [
+        {
+            "content" : "次のチャプターに",
+            "nextParagraphId" : -1,
+            "nextChapterIndex" : 2
+        },
+    ],
+  }
+]
