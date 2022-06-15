@@ -16,12 +16,12 @@ struct FadeInView: View {
     // Define
     @AppStorage("isTextAnimation") var isTextAnimation: Bool = true
     @State var opacity: Double = 0
-    @EnvironmentObject var modelData: ModelData
+    private let mainFont = "NanumMyeongjo"
     
     // body
     var body: some View {
         Text(text)
-            .font(.custom(modelData.getContentFontName(), size: fontSize))
+            .font(.custom(mainFont, size: fontSize))
             .opacity( isTextAnimation == true ? opacity : Double(1))
             .lineSpacing(fontSize - 6)
             .animation(.easeIn.delay( 0.3 ), value: opacity)

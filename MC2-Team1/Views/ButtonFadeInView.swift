@@ -20,13 +20,14 @@ struct ButtonFadeInView: View {
     @AppStorage("Bfriendship") var Bfriendship: Int = 0
     @AppStorage("Cfriendship") var Cfriendship: Int = 0
     // MiniGame
-    @AppStorage("isGlassGame") var isGlassGame: Bool = false
-    @AppStorage("isPullLeverGame") var isPullLeverGame: Bool = false
-    @AppStorage("isBoxOpenGame") var isBoxOpenGame: Bool = false
+    @AppStorage("isGlassGame") var isGlassGame = false
+    @AppStorage("isPullLeverGame") var isPullLeverGame = false
+    @AppStorage("isBoxOpenGame") var isBoxOpenGame = false
     @State var opacity: Double = 0
-    @Binding var isButtonHidden: Bool
+    @State var isButtonHidden = true
     
     var currentParagraph: Paragraph {modelData.filterPara(currentChapter: modelData.currentChapterIndex, id: paragraphId)}
+    private let mainFontBold = "NanumMyeongjoBold"
 
     var body: some View {
         
@@ -68,12 +69,11 @@ extension ButtonFadeInView{
 extension ButtonFadeInView{
     @ViewBuilder func buttonViewBuilder() -> some View {
         Button{
-            self.isButtonHidden = true
             // go to next chapter, need to show bridge view
             if choice.nextParagraphId == -1 {
                 DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.4) {
                     modelData.currentChapterIndex = choice.nextChapterIndex!
-                    modelData.pastParas = [["Records".localized()]]
+                    modelData.pastParas = [["기록들"]]
                     paragraphId = 1
                 }
                 withAnimation(.linear(duration: 0.4)) {
@@ -125,7 +125,7 @@ extension ButtonFadeInView{
         } label: {
             Text(choice.content)
                 .foregroundColor(.fontColor)
-                .font(.custom(modelData.getChoiceFontName(), size: 18))
+                .font(.custom(mainFontBold, size: 18))
                 .frame(maxWidth: .infinity, maxHeight: RatioSize.getResheight(height: 60))
                 .background(Color.bgColor)
                 .cornerRadius(50)

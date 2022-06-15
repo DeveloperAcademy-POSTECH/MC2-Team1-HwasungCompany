@@ -13,7 +13,7 @@ struct BoxOpenView: View {
     @State private var showBox = true
     @State private var showInBox = false
     @State private var opac: Double = 0
-    @State private var boxDec = "Drag to open the box".localized()
+    @State private var boxDec = "드래그해서 상자를 열어주세요"
     
     @State private var showBlack = false
     @State private var showWhite = true
@@ -27,7 +27,7 @@ struct BoxOpenView: View {
                             DragGesture(minimumDistance: RatioSize.getResWidth(width: 50))
                                 .onEnded { _ in
                                     dragCompleted = true
-                                    boxDec = "Double click to inspect the box".localized()
+                                    boxDec = "더블클릭해서 상자안을 봐주세요"
                                 })
                     
                 }

@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "content": "쾅하는 소리와 함께 육중한 철문이 닫혔다.\n방의 철제 책상 위에는 불길한 액체가 든 비커들과 먼지 쌓인 보고서들이 난잡하게 널부러져 있다.",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 2
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "바닥으로 시선을 돌리자 날카로워보이는 유리 조각들이 보였다.\n\"비커가 깨져서 유리 파편이 많으니까 조심하세요.\"\n그는 들고 온 가방을 놓고선 방의 구석진 곳들을 유심히 살피기 시작했다.",
+    "choices": [
+        {
+            "content" : "여긴 대체 어디죠?",
+            "nextParagraphId" : 3
+        },
+        {
+            "content" : "도대체 이게 무슨 일인거죠?",
+            "nextParagraphId" : 3
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "\"여긴 NIPS 입니다. 국가 주도의 연구를 행하는 다섯 연구소 중 하나이죠.\"",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 4
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "\"NIPS는 크게 일반인의 출입이 가능한 일반동과 소속 연구원의 출입만 가능한 연구동 영역으로 나누어지는데,\n일반동 영역은 반군에 의해 장악당한 상태라 탈출하기 위해선 연구동 쪽으로 가야만 해요.\"",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 5
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "\"그보다 바닥에 깨진 유리조각이 많으니 조심해주세요.\"\n그는 테러의 걱정보다는 내 안위가 먼저인 것처럼 말했다.",
+    "choices": [
+        {
+            "content" : "저는 누구인가요?",
+            "nextParagraphId" : 6
+        },
+        {
+            "content" : "당신은 누구인가요?",
+            "nextParagraphId" : 8
+        }
+    ]
+  },
+  {
+    "id": 6,
+    "content": "\"당신은 이름은 안지민.\n오늘 해부학 강연을 위해 초청된 분입니다.\n안타깝게도 강연은 중지되었지만요.\"",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 7
+        },
+    ]
+  },
+  {
+    "id": 7,
+    "content": "\"그러고 보니 소개가 늦었군요.\n저는 NIPS 소속 연구원 백연우입니다.\n원래대로라면 오늘 지민씨의 서포트역이 되었을 예정이었죠.\"",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 10
+        },
+    ]
+  },
+  {
+    "id": 8,
+    "content": "\"그러고 보니 소개가 늦었군요.\n저는 NIPS 소속 연구원 백연우입니다.\n원래대로라면 오늘 지민씨의 서포트역이 되었을 예정이었죠.\"",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 9
+        },
+    ]
+  },
+  {
+    "id": 9,
+    "content": "\"그리고 당신은 이름은 안지민.\n오늘 해부학 강연을 위해 초청된 분입니다.\n안타깝게도 강연은 중지되었지만요.\"",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 10
+        },
+    ]
+  },
+  {
+    "id": 10,
+    "content": "\"연구동 내부에 있었던 대부분의 사람들은 대피가 완료되었지만, 일반동 쪽에 있었던 분들은 이미… \n그래서 아까 전 다른 분과 함께 피습 당한 줄만 알고…\"",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 11
+        },
+    ]
+  },
+  {
+    "id": 11,
+    "content": "그가 방을 수색하던 것을 멈추곤 나의 근처로 다가왔다.\n\"죄송합니다. 제가 좀 더 주의 깊게 살펴봤으면 이렇게 급히 연구동 쪽으로 오지 않아도 되었을텐데…\"\n죄책감 가득한 눈이었다.",
+    "choices": [
+        {
+            "content" : "이대로 믿어도 되는걸까?",
+            "nextParagraphId" : 12
+        },
+        {
+            "content" : "진짜 연구원인가?",
+            "nextParagraphId" : 12,
+            "effectB" : 1,
+            "effectC" : -1
+        },
+    ]
+  },
+  {
+    "id": 12,
+    "content": "\"연구동 쪽으로 탈출하기만 하면 정부 측에서 도와주겠다고 약속을 했으니 이대로 되돌아가지만 않는다면 무사히 나갈 수 있을 거예요.\n연구원으로서 나가기 전까지 최선을 다해서 지민씨를 보호하겠습니다.\"",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 13
+        },
+    ]
+  },
+  {
+    "id": 13,
+    "content": "\"비상 선언 이후 반군 측에서 보안 시스템을 점거했는지 원래 가지고 있던 카드키가 작동하지 않네요.\n분명히 이 방에도 비상 상황을 대비해 마스터키가 있을텐데…\"",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 14
+        },
+    ]
+  },
+  {
+    "id": 14,
+    "content": "\"방이 꽤 넓으니 혹시 함께 찾아주실 수 있나요?\"",
+    "choices": [
+        {
+            "content" : "왼쪽을 찾는다",
+            "nextParagraphId" : 15
+        },
+        {
+            "content" : "오른쪽을 찾는다",
+            "nextParagraphId" : 18
+        },
+    ]
+  },
+  {
+    "id": 15,
+    "content": "왼쪽에 책상과 유리수납장이 있다.",
+    "choices": [
+        {
+            "content" : "책상을 수색한다",
+            "nextParagraphId" : 16
+        },
+        {
+            "content" : "유리수납장을 수색한다",
+            "nextParagraphId" : 17
+        },
+    ]
+  },
+  {
+    "id": 16,
+    "content": "책상 위가 서류로 가득하다. 아무래도 여기에는 없는 것 같다. 유리 수납장을 찾아보자.",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 17
+        },
+    ]
+  },
+  {
+    "id": 17,
+    "content": "유리 수납장이 잠겨있다. 유리 너머로 무언가가 보이는데?",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 21
+        },
+    ]
+  },
+  {
+    "id": 18,
+    "content": "오른쪽에 서류 가방과 실험대가 있다.",
+    "choices": [
+        {
+            "content" : "서류 가방을 수색한다",
+            "nextParagraphId" : 19
+        },
+        {
+            "content" : "실험대를 수색한다",
+            "nextParagraphId" : 20
+        },
+    ]
+  },
+  {
+    "id": 19,
+    "content": "서류 가방 속이 텅 비어있다. 여기에는 없는 것 같다. 실험대를 살펴보자.",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 20
+        },
+    ]
+  },
+  {
+    "id": 20,
+    "content": "실험대 위에 유리 수납장이 있다. 수납장은 잠겨 있었다. 수납장 안에 무언가가 보이는데?",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 21
+        },
+    ],
+  },
+  {
+    "id": 21,
+    "content": "윽, 유리 파편에 손이 베인 것 같다. 생각보다 깊게 베였는지 핏방울이 떨어졌다.",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 22
+        },
+    ],
+    "game": "GlassAnimation"
+  },
+  {
+    "id": 22,
+    "content": "\"괜찮아요?\"\n나의 목소리를 듣고 백연우가 다가왔다.",
+    "choices": [
+        {
+            "content" : "신경쓰지 마세요!",
+            "nextParagraphId" : 23,
+            "effectB" : -5,
+            "effectC" : 3
+        },
+        {
+            "content" : "대체 왜 이렇게 친절한거지?",
+            "nextParagraphId" : 24,
+            "effectB" : 3,
+            "effectC" : -3
+        },
+    ],
+  },
+  {
+    "id": 23,
+    "content": "내가 뒤로 몸을 물리자 백연우는 씁쓸하게 말했다.\n\"저를 신뢰하지 못하셔도 치료는 해야해요.\n상처가 덧나면 안되니까…\"백연우가 조심스럽게 내 손을 잡았다.",
+    "choices": [
+        {
+            "content" : "다음으로",
+            "nextParagraphId" : 24
+        },
+    ],
+  },
+  {
+    "id": 24,
+    "content": "그도 어디선가 다친 것인지, 왼쪽 손등에 흉이 져 있었다. 알코올로 소독하고 붕대를 감는 손길이 섬세했다.",
+    "choices": [
+        {
+            "content" : "다음 챕터로",
+            "nextParagraphId" : -1,
+            "nextChapterIndex" : 2
+        },
+    ],
+  }
+]

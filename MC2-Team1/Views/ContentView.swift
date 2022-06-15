@@ -26,13 +26,15 @@ struct ContentView: View {
     
     @State var isShowing = false
     @State var isShowingAlert = false
-    @State var isButtonHidden: Bool = true
     
     var currentParagraph: Paragraph {modelData.filterPara(currentChapter: modelData.currentChapterIndex, id: paragraphId)}
+    
+    private let mainFont = "NanumMyeongjo"
     
     // body
     var body: some View {
         ZStack{
+            
             // Background
             Color.bgColor
                 .ignoresSafeArea()
@@ -46,9 +48,6 @@ struct ContentView: View {
                 HistoryView()
                     .padding(.horizontal, RatioSize.getResWidth(width: 20))
                     .padding(.top, RatioSize.getResheight(height: 5))
-                    .onTapGesture {
-                        isButtonHidden = false
-                    }
                 
                 // Choice Buttons
                 // TODO: 버튼 최하단에 padding 넣어야 함
@@ -76,6 +75,7 @@ struct ContentView: View {
 
 // ViewBuilder Extension
 extension ContentView {
+    
     // FadeInViewReloader
     @ViewBuilder func FadeInViewReloader(text: String, fontSize: CGFloat) -> some View {
         FadeInView(text: text, fontSize: fontSize, isTextAnimation: isTextAnimation)
@@ -84,11 +84,12 @@ extension ContentView {
     // ButtonViewReloader
     @ViewBuilder func ButtonViewBuilder() -> some View {
         Group {
+            
             if currentParagraph.hasChoices {
                 Group {
                     VStack {
                         ForEach(currentParagraph.choices ?? [], id: \.self) {choice in
-                            ButtonFadeInView(mode: $mode, choice: choice, content: currentParagraph.content, isButtonHidden: $isButtonHidden)
+                            ButtonFadeInView(mode: $mode, choice: choice, content: currentParagraph.content)
                         }
                     }
                 }
@@ -115,8 +116,8 @@ extension ContentView {
                     }
                 }
                 HStack{
-                    Text((modelData.currentChapterIndex == 1 && paragraphId >= 7) || modelData.currentChapterIndex > 1 ? "Baek".localized():"?")
-                        .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                    Text((modelData.currentChapterIndex == 1 && paragraphId >= 7) || modelData.currentChapterIndex > 1 ? "백":"?")
+                        .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
                         .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                         .background(Color.tapFontColor)
@@ -124,16 +125,16 @@ extension ContentView {
                     
                     Spacer()
                     
-                    Text((modelData.currentChapterIndex == 2 && paragraphId >= 14) || modelData.currentChapterIndex > 2 ? "Choi".localized():"?")
-                        .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                    Text((modelData.currentChapterIndex == 2 && paragraphId >= 14) || modelData.currentChapterIndex > 2 ? "최":"?")
+                        .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                         .foregroundColor(.fontColor)
                         .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                         .background(Color.tapFontColor)
                         .cornerRadius(50)
                 }//HStack
                 
-                Text("Ahn".localized())
-                    .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                Text("나")
+                    .font(.custom(mainFont, size: RatioSize.getResWidth(width: 18)))
                     .foregroundColor(.fontColor)
                     .frame(width: RatioSize.getResWidth(width: 30), height: RatioSize.getResWidth(width: 30))
                     .background(Color.bgColor)
@@ -167,38 +168,36 @@ extension ContentView {
             // Title
             HStack{
                 Spacer()
-                Text("Setting".localized())
-                    .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 22)))
+                Text("설정")
+                    .font(.system(size: RatioSize.getResWidth(width: 22)))
                 Spacer()
             }
             
             // Text Animation Toggle
             HStack{
                 Toggle(isOn: $isTextAnimation) {
-                    Text("Text Animation Effects".localized())
-                        .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                    Text("텍스트 애니메이션 효과")
                 }
             }
             
             // Text Size Adjust
-            Text("Text Size".localized())
-                .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+            Text("텍스트 크기")
 
             VStack{
                 // Sample Text
-                Text("Current Text Size".localized())
-                    .font(.custom(modelData.getContentFontName(), size: fontSize))
+                Text("현재 텍스트 크기 입니다.")
+                    .font(.system(size: fontSize))
                     .padding(.vertical, RatioSize.getResheight(height: 10))
                     .frame(height: 30)
                 
                 // Slider
                 HStack{
-                    Text("A".localized())
-                        .font(.custom(modelData.getContentFontName(), size: 14))
+                    Text("가")
+                        .font(.system(size: 14))
                     Slider(value: $fontSize, in: 14...22,
                            step: 2)
-                    Text("A".localized())
-                        .font(.custom(modelData.getContentFontName(), size: 22))
+                    Text("가")
+                        .font(.system(size: 22))
                 }
                 .padding(.vertical, RatioSize.getResheight(height: 10))
             }
@@ -212,23 +211,18 @@ extension ContentView {
                 Button{
                     isShowingAlert = true
                 }label: {
-                    Text("Restart the Game".localized())
-                        .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))
+                    Text("게임 초기화 하기")
                 }
                 .alert(isPresented: $isShowingAlert){
                     
                     Alert(
-                        title: Text("Are you sure to restart the game?".localized())
-                            .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18))),
-                        message: Text("The game is going to be initialized.\nThis act cannot be undone.".localized())
-                            .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18))),
-                        primaryButton: .default(Text("Cancel".localized())
-                            .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))),
-                        secondaryButton: .destructive(Text("Confirm".localized())
-                            .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 18)))){
+                        title: Text("초기화 하시겠습니까?"),
+                        message: Text("게임의 진행도가 초기화 됩니다. \n이행동은 되돌릴 수 없습니다."),
+                        primaryButton: .default(Text("취소")),
+                        secondaryButton: .destructive(Text("확인")){
                             // Clear history
                             modelData.currentChapterIndex = 0
-                                modelData.pastParas = [["Records".localized()]]
+                            modelData.pastParas = [["기록들"]]
                             withAnimation {
                                 mode = .start
                             }

@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "content": "\"치료는 끝났어요. 베인 부분이 닿지만 않으면 괜찮을 것 같아요. 그래도 혹시나 상처 부위가 아프다면 제게 언제든지 말해주세요.\"\n나는 고개를 끄덕였다.",
+    "choices": [
+        {
+            "content": "다음으로",
+            "nextParagraphId": 2
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "\"저에 대해서 다른 궁금한 점은 없으세요?\"\n백연우가 물었다.\n\"제가 아직까지 여기 남아있는 이유라던가…\"",
+    "choices": [
+        {
+            "content": "그러게요, 그러고 보니 궁금하네요",
+            "nextParagraphId": 3,
+            "effectB": 1,
+            "effectC": -1
+        },
+        {
+            "content": "글쎄요…",
+            "nextParagraphId": 3,
+            "effectB": -1,
+            "effectC": 1
+        }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "\"여기서 찾고 있는 게 있답니다. 치료제인데, 제가 일하던 부서에서 관여한 프로젝트가 아니라 어디서 찾아야 하는지 알 길이 없네요.\"",
+    "choices": [
+        {
+            "content": "치료제?",
+            "nextParagraphId": 4
+        },
+        {
+            "content": "다친 곳이 더 있는 걸까? 염려스럽다",
+            "nextParagraphId": 4,
+            "effectB": 1,
+            "effectC": -1
+        }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "\"소중한 사람이 아프거든요… 저의 전부나 마찬가지인 사람이라, 그 사람을 낫게 해줄 치료제가 꼭 필요해요. 그래서 말인데, 제가 치료제를 찾을 수 있게 도와주실 수 있으신가요?\"",
+    "choices": [
+        {
+            "content": "......",
+            "nextParagraphId": 5
+        },
+        {
+            "content": "그럼요, 뭔데요?",
+            "nextParagraphId": 5
+        }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "\"도와달라고 했지만 나서서 찾아달라는 것은 아니에요. 치료제도 중요하지만 당신이 이 시설에서 안전히 빠져나가도록 돕는 게 저의 최우선 목표이니까요. 그냥, 찾으면 알려주셨으면 해요. 그게 전부예요.\"",
+    "choices": [
+        {
+            "content": "어떻게 생겼나요?",
+            "nextParagraphId": 6,
+            "effectB": 3,
+            "effectC": -3
+        },
+        {
+            "content": "음...",
+            "nextParagraphId": 6,
+            "effectB": -1,
+            "effectC": 1
+        }
+    ]
+  },
+  {
+    "id": 6,
+    "content": "\"치료제는 투명한 붉은 액체 형태로 봉인된 유리 막대 안에 들어있을 거예요. 혹시라도 비슷한 것을 보신다면 저에게 꼭 알려주세요. 그걸로 충분해요.\"\n\"알겠어요, 그럴게요.\"",
+    "choices": [
+        {
+            "content": "다음으로",
+            "nextParagraphId": 7
+        }
+    ]
+  },
+  {
+    "id": 7,
+    "content": "앞쪽으로 유리문 하나가 보인다. 카드키가 필요없는 공간인가?\n내가 문을 향해 다가가는 그 순간, 등 뒤로 굉음이 들려왔다.",
+    "choices": [
+        {
+            "content": "다음으로",
+            "nextParagraphId": 8
+        }
+    ]
+  },
+  {
+    "id": 8,
+    "content": "방금 전까지만 해도 복도였던 공간이 셔터 비슷한 것에 의해 단절되어 있었다.",
+    "choices": [
+        {
+            "content": "다음으로",
+            "nextParagraphId": 9
+        }
+    ]
+  },
+  {
+    "id": 9,
+    "content": "\"안지민씨, 거기 있나요?\"\n백연우가 반대편에서 문을 쾅쾅 두드렸다.\n\"네, 여기 있어요. 이게 무슨 일이죠?\"\n\"지민씨를 따라가고 있었는데 갑자기 위에서 이 셔터가 내려왔어요.\"",
+    "choices": [
+        {
+            "content": "다음으로",
+            "nextParagraphId": 10
+        }
+    ]
+  },
+  {
+    "id": 10,
+    "content": "화재 방지용으로 만든 걸까? 벽은 생각보다 두껍고 견고해 보인다.",
+    "choices": [
+        {
+            "content": "어떻게 문을 열지 찾아볼게요",
+            "nextParagraphId": 11
+        },
+        {
+            "content": "이런 경우에는 어떻게 해야 하나요?",
+            "nextParagraphId": 11
+        }
+    ]
+  },
+  {
+    "id": 11,
+    "content": "허둥대면서 주변을 둘러보는데, 누군가 내 어깨를 움켜잡았다.\n놀라서 소리지를 새도 없이 그 사람은 급하게, 그러나 조용히 말을 시작했다.\n\"너, 지금 여기서 뭐하고 있는거야? 왜 저 사람과 같이 있어?\"",
+    "choices": [
+        {
+            "content": "그쪽이야말로 누구신데요?",
+            "nextParagraphId": 12
+        },
+        {
+            "content": "네…?",
+            "nextParagraphId": 12
+        }
+    ]
+  },
+  {
+    "id": 12,
+    "content": "그는 내 질문에는 대답하지 않은 채 말을 이어나갔다.\n\"혹시 저 사람이 연구원이라고 했어?\"\n대답해줄 필요가 있는 질문일까.\n\"너 아무 기억도 안나?\"\n그는 답답하다는 듯이 내 두 눈을 똑바로 바라보며 말했다.",
+    "choices": [
+        {
+            "content": "다음으로",
+            "nextParagraphId": 13
+        }
+    ]
+  },
+  {
+    "id": 13,
+    "content": "\"무슨 소리를 하시는 건지 정말 하나도 모르겠어요. 그것보다 저 방화벽 문 여는 거나 좀 도와주세요.\"\n그의 안경에 비친 나는 영문도 모르겠다는 듯 혼란스러운 표정이었다.",
+    "choices": [
+        {
+            "content": "다음으로",
+            "nextParagraphId": 14
+        }
+    ]
+  },
+  {
+    "id": 14,
+    "content": "그는 절망스러운 표정을 짓더니 금세 말을 이어나갔다.\n\"지민아, 기억을 못 하는 것 같지만 너랑 나랑은 원래 알던 사이였어. 내 이름, 내 이름은 기억나니? 나 최지원이야.\"",
+    "choices": [
+        {
+            "content": "다음으로",
+            "nextParagraphId": 15
+        }
+    ]
+  },
+  {
+    "id": 15,
+    "content": "\"너한테는 치즈라는 노란색 고양이가 있었어. 또, 너는 어린 아이들을 좋아해서 아이들을 가르치는 일을 했어. 기억 안 나?\"",
+    "choices": [
+        {
+            "content": "백연우 말이랑 다른데?",
+            "nextParagraphId": 16
+        },
+        {
+            "content": "무슨 소리인지 모르겠다",
+            "nextParagraphId": 16,
+        }
+    ]
+  },
+  {
+    "id": 16,
+    "content": "그가 진지한 표정으로 말을 이어나간다.\n\"그리고 저 새끼 너무 믿지마. 확실하지는 않지만, 겉으로 보이는 것과 다르게 위험하다고.\"",
+    "choices": [
+        {
+            "content": "당신 말을 믿을 근거가 있나요?",
+            "nextParagraphId": 17
+        },
+        {
+            "content": "그게 무슨 뜻인가요?",
+            "nextParagraphId": 17,
+            "effectB": -1,
+            "effectC": 3
+        }
+    ]
+  },
+  {
+    "id": 17,
+    "content": "\"저 사람이 너한테 뭐라고 했는지는 모르겠는데 나는 여기 연구원이야. 자세한 사정은 지금 설명할 수 없지만 이유가 있어서 남았고 나만 지금 너를 도와줄 수 있어. 아니, 내가 도와줄게\"",
+    "choices": [
+        {
+            "content": "...일단은 문이나 열어보자",
+            "nextParagraphId": 18,
+            "effectB": 3,
+            "effectC": -3
+        },
+        {
+            "content": "어떻게 저를 도와주신다는 거예요?",
+            "nextParagraphId": 20,
+            "effectB": -3,
+            "effectC": 3
+        }
+    ]
+  },
+  {
+    "id": 18,
+    "content": "나는 문을 손으로 살폈다. 먼지가 또 한바탕 흩날린다. 분명 어딘가에 문을 여는 장치가 있는 것 같은데…",
+    "choices": [
+        {
+            "content": "다음으로",
+            "nextParagraphId": 19
+        }
+    ]
+  },
+  {
+    "id": 19,
+    "content": "벽을 더듬거리면서 만져보자, 작지만 견고한 레버 같은 것이 만져진다. 혼자서 끙끙대며 레버를 비틀자 꼼짝도 않던 문이 열렸다.",
+    "choices": [
+        {
+            "content": "다음으로",
+            "nextParagraphId": 21
+        }
+    ],
+    "game": "PullLeverGame"
+  },
+  {
+    "id": 20,
+    "content": "\"그건…\"",
+    "choices": [
+        {
+            "content": "다음으로",
+            "nextParagraphId": 21
+        }
+    ]
+  },
+  {
+    "id": 21,
+    "content": "그 순간 뒤에서 문이 힘겹게 열리더니 백연우가 들어왔다.",
+    "choices": [
+        {
+            "content": "다음 챕터로",
+            "nextParagraphId": -1,
+            "nextChapterIndex": 3
+        }
+    ]
+  }
+]

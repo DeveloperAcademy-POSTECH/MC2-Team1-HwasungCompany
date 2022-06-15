@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct BridgeView: View {
-    @Environment(\.colorScheme) var colorScheme
-    
     @EnvironmentObject var modelData: ModelData
     @State private var tapFontColorOpacity = true
     @Binding var mode: Mode
@@ -26,23 +24,6 @@ struct BridgeView: View {
             
             VStack(spacing: 0) {
                 
-                Spacer()
-                
-                switch chapterNumber {
-                case "2":
-                    Image(colorScheme == .light ? "백연우":"백연우_반전").resizable().frame(width: RatioSize.getResWidth(width: 250), height: RatioSize.getResWidth(width: 250)).scaledToFit()
-                case "3":
-                    Image(colorScheme == .light ? "최지원":"최지원_반전").resizable().frame(width: RatioSize.getResWidth(width: 250), height: RatioSize.getResWidth(width: 250)).scaledToFit()
-                case "4":
-                    Image(colorScheme == .light ? "치료제":"치료제_반전").resizable().frame(width: RatioSize.getResWidth(width: 250), height: RatioSize.getResWidth(width: 250)).scaledToFit()
-                case "5":
-                    Image(colorScheme == .light ? "갈림길":"갈림길_반전").resizable().frame(width: RatioSize.getResWidth(width: 250), height: RatioSize.getResWidth(width: 250)).scaledToFit()
-                case "6":
-                    Image(colorScheme == .light ? "안지민":"안지민_반전").resizable().frame(width: RatioSize.getResWidth(width: 250), height: RatioSize.getResWidth(width: 250)).scaledToFit()
-                default:
-                    EmptyView()
-                }
-               
                 Spacer()
                 
                 ZStack {
@@ -67,7 +48,7 @@ struct BridgeView: View {
                 HStack {
                     Spacer()
                     Text("Chapter \(chapterNumber)")
-                        .font(.custom(modelData.getTitleFontName(), size: RatioSize.getResWidth(width: 24)))
+                        .font(.custom("NuosuSIL-Regular", size: RatioSize.getResWidth(width: 24)))
                         .foregroundColor(.fontColor)
                         .padding(.top, RatioSize.getResheight(height: 30))
                         .onAppear {
@@ -96,7 +77,7 @@ struct BridgeView: View {
                 HStack {
                     Spacer()
                     Text("\(modelData.chapterNameArray[modelData.bridgeChapterIndex])")
-                        .font(.custom(modelData.getContentFontName(), size: RatioSize.getResWidth(width: 20)))
+                        .font(.custom("NotoSerifKR-Regular", size: RatioSize.getResWidth(width: 20)))
                         .foregroundColor(.fontColor)
                     Spacer()
                 }
@@ -106,7 +87,7 @@ struct BridgeView: View {
                 
                 HStack {
                     Spacer()
-                    Text("TAP TO START".localized())
+                    Text("탭해서 시작하기")
                         .font(.custom("Inter-SemiBold", size: RatioSize.getResWidth(width: 20)))
                         .foregroundColor(.tapFontColor)
                         .opacity(tapFontColorOpacity ? 1 : 0)

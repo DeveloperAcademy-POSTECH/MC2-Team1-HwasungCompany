@@ -1,0 +1,205 @@
+[
+    {
+        "id": 1,
+        "content": "\"줄 수 없어!\"\n최지원이 소리쳤다.\n자리를 비운 사이에 대체 무슨 일이 있었던거지?",
+        "choices": [
+            {
+                "content" : "백연우를 쳐다본다",
+                "nextParagraphId" : 3,
+                "effectB" : 1,
+                "effectC" : -1
+            },
+            {
+                "content" : "최지원에게 물어본다",
+                "nextParagraphId" : 2,
+                "effectB" : -1,
+                "effectC" : 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "content": "\"대체 무슨 일이 있었던거죠?\"\n최지원은 대답하지 않고 침묵을 지켰다.",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "content": "나는 고개를 돌려 백연우를 쳐다봤다. 백연우는 한숨을 쉬곤 말했다.\n\"책임님이  제가 찾는 치료제를 들고 계신 것 같은데… 줄 수 없다고 하시는군요.\"",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 4
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": "\"그 치료제는 위험하다고 말했지 않습니까!\"\n\"제가 알기로는 대부분의 임상 실험 절차는 완료가 된 것으로 아는데도 말입니다.\"\n\"임상은 완료되었지만…!\"\n최지원이 주먹을 쥐곤 일그러진 표정으로 바닥을 보았다.",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "content": "\"…아무튼 줄 수 없습니다. 어차피 그 치료제 전량 폐기했으니. \"\n최지원이 내뱉듯이 말했다.\n\"폐기…?\"\n\"연구실에 끝까지 남아있었던 이유도 그 때문입니다. \"",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 6
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "content": "치료제를 전부 폐기했다고? 그렇다면 내가 들고 있는 이건 뭐지?\n나는 주머니 속의 치료제를 만지작거렸다.",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": "백연우는 잠시 침묵하더니 입을 열었다.\n\"그 치료제 하나로 얼마나 많은 사람들이 구원 받을지를 아시면서 왜 그런 행동을 하셨죠?\"\n\"다시 말하지만 위험성 때문에-\"\n\"허가받지 않은 실험을 해서가 아니고요?\"\n최지원이 몸을 굳혔다.",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 8
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "content": "\"역시 맞군요. 소문으로는 책임님의 무리한 실험 때문에 피험자들 중에서 사망자가 나왔다고 들었는데, 설마 진짜였을 줄이야.\"\n\"그건!\"\n\"아, 피험자가 아니라 민간인이었나요?\"",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 9
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "content": "최지원이 죽일 듯이 백연우를 노려보다 입을 열었다.",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 10
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "content": "\"NIPS에 출입이 가능한 사람은 많지 않아. 심지어 연구동에 들어올 수 있는 인물은 딱 두 종류야. 연구원이거나, 피험자이거나.\"",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 11
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "content": "\"NIPS, 국립 인격 분리 연구소에서 피험자의 종류는 단 하나. 하나의 신체에서 두 개의 인격을 지니게 된 후, 사회에 해를 입히는 난폭하고 잔인한 인격을 가지게 된 인물들.\"",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 12
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "content": "\"치료제 JH3에 대한 정보는 일부 책임 연구원을 제외하고는 기밀 유지 사항이라 아무도 알지 못해.\"\n\"……\"",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 13
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "content": "\"치료제? 하, 사람들을 구원하는 건 치료제가 아니라 백연우. 당신의 극단적 자아가 사라지는 겁니다.\"",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 14
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "content": "백연우가…",
+        "choices": [
+            {
+                "content" : "백연우가 이중인격자라고?",
+                "nextParagraphId" : 16,
+                "effectB" : -3,
+                "effectC" : 3
+            },
+            {
+                "content" : "정말 백연우가 이중인격자일까?",
+                "nextParagraphId" : 15,
+                "effectB" : 3,
+                "effectC" : -3
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "content": "하지만 그 친절했던 행동들에서 난폭한 모습따위는 볼 수 없었는데…?",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 16
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "content": "하지만 최지원의 말이 진짜라면 최지원에게 줘야만 해.",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 17
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "content": "대체 누구 말을 믿어야하지?",
+        "choices": [
+            {
+                "content" : "다음으로",
+                "nextParagraphId" : 18
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "content": "누구에게 치료제를 줘야하지?",
+        "choices": [
+            {
+                "content" : "백연우에게 건넨다",
+                "nextParagraphId" : -1,
+                "nextChapterIndex" : 5
+                
+            },
+            {
+                "content" : "최지원에게 건넨다",
+                "nextParagraphId": -1,
+                "nextChapterIndex": 6
+            }
+        ]
+    },
+]
