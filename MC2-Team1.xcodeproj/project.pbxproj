@@ -54,7 +54,6 @@
 		B7690F1928548932008E81AC /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7690F1828548932008E81AC /* InitView.swift */; };
 		B7690F1B28548C0F008E81AC /* BridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7690F1A28548C0F008E81AC /* BridgeView.swift */; };
 		B7FD7D662855C347006A509E /* JsonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD7D652855C347006A509E /* JsonManager.swift */; };
-		B7FD7D682855C79B006A509E /* PastPara.json in Resources */ = {isa = PBXBuildFile; fileRef = B7FD7D672855C79B006A509E /* PastPara.json */; };
 		C66C56E22845E2A200BDC0CC /* FadeInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C56E12845E2A200BDC0CC /* FadeInView.swift */; };
 		C6AE29532855CDB200E9F39F /* ButtonFadeInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE29522855CDB200E9F39F /* ButtonFadeInView.swift */; };
 		C6AE2957285705CA00E9F39F /* chapterTwoKR.json in Resources */ = {isa = PBXBuildFile; fileRef = C6AE2956285705CA00E9F39F /* chapterTwoKR.json */; };
@@ -129,7 +128,6 @@
 		B7690F1828548932008E81AC /* InitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
 		B7690F1A28548C0F008E81AC /* BridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeView.swift; sourceTree = "<group>"; };
 		B7FD7D652855C347006A509E /* JsonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonManager.swift; sourceTree = "<group>"; };
-		B7FD7D672855C79B006A509E /* PastPara.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PastPara.json; sourceTree = "<group>"; };
 		C613C435283E112300BCFC82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C66C56E12845E2A200BDC0CC /* FadeInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeInView.swift; sourceTree = "<group>"; };
 		C6AE29522855CDB200E9F39F /* ButtonFadeInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFadeInView.swift; sourceTree = "<group>"; };
@@ -327,7 +325,6 @@
 				11F4C4042859A520002CE9F4 /* chapterSixBEng.json */,
 				11F4C4012859A509002CE9F4 /* chapterFourEng.json */,
 				C613C434283E108A00BCFC82 /* fonts */,
-				B7FD7D672855C79B006A509E /* PastPara.json */,
 				B718B1D428587926006D0DB4 /* chapterOneCN.json */,
 				B718B1D82858AF00006D0DB4 /* chapterTwoCN.json */,
 				B718B1DA2858B5CF006D0DB4 /* chapterThreeCN.json */,
@@ -432,7 +429,6 @@
 				B7690EE62851D157008E81AC /* Inter-SemiBold.ttf in Resources */,
 				3A3C86E82858C1C500F0F8DE /* chapterFiveJP.json in Resources */,
 				3A3C86EA2858D12C00F0F8DE /* chapterSixBJP.json in Resources */,
-				B7FD7D682855C79B006A509E /* PastPara.json in Resources */,
 				3A3C86E428589E0F00F0F8DE /* chapterThreeJP.json in Resources */,
 				37D9E2B828570CBC005BB908 /* chapterThreeKR.json in Resources */,
 				C6AE2957285705CA00E9F39F /* chapterTwoKR.json in Resources */,

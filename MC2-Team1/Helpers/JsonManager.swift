@@ -30,25 +30,44 @@ final class JsonManager {
         }
     }
     
-    static func save<T: Codable>(data: [T]) {
+    static func saveJsonData<T: Codable>(data: [T]) {
         let jsonEncoder = JSONEncoder()
-        
-        guard let file = Bundle.main.url(forResource: "PastPara.json", withExtension: nil)
-        else {
-            fatalError("Couldn't find memoData.json in main bundle.")
-        }
         
         do {
             let encodedData = try jsonEncoder.encode(data)
             
+            guard let documentDirectoryUrl = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else { return }
+            let fileURL = documentDirectoryUrl.appendingPathComponent("PastPara.json")
+            
             do {
-                try encodedData.write(to: file.standardizedFileURL)
+                try encodedData.write(to: fileURL)
             }
             catch let error as NSError {
                 print(error)
             }
+            
+            
         } catch {
             print(error)
+        }
+        
+    }
+    
+    static func loadJsonFile() -> [[String]]? {
+        let jsongDecoder = JSONDecoder()
+        
+        do {
+            guard let documentDirectoryUrl = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else { return nil}
+            let fileURL = documentDirectoryUrl.appendingPathComponent("PastPara.json")
+            
+            let jsonData = try Data(contentsOf: fileURL, options: .mappedIfSafe)
+            
+            let decodedBigSur = try jsongDecoder.decode([[String]].self, from: jsonData)
+            return decodedBigSur
+        }
+        catch {
+            print(error)
+            return nil
         }
     }
 }
