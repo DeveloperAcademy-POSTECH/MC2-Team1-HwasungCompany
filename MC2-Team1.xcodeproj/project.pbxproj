@@ -28,6 +28,7 @@
 		3A3C86E82858C1C500F0F8DE /* chapterFiveJP.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C86E72858C1C500F0F8DE /* chapterFiveJP.json */; };
 		3A3C86EA2858D12C00F0F8DE /* chapterSixBJP.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C86E92858D12C00F0F8DE /* chapterSixBJP.json */; };
 		3A3C86EC2858E1F400F0F8DE /* chapterSixCJP.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C86EB2858E1F400F0F8DE /* chapterSixCJP.json */; };
+		3A7C05F4285C73FB008F8B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7C05F3285C73FB008F8B2D /* LaunchScreen.storyboard */; };
 		3AA9DFD42851CADD00365420 /* GlassAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9DFD32851CADD00365420 /* GlassAnimationView.swift */; };
 		3AA9DFEB2851DCEC00365420 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9DFEA2851DCEC00365420 /* HapticManager.swift */; };
 		3AA9DFF028532FE300365420 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9DFEF28532FE300365420 /* Constants.swift */; };
@@ -99,6 +100,7 @@
 		3A3C86E72858C1C500F0F8DE /* chapterFiveJP.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterFiveJP.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		3A3C86E92858D12C00F0F8DE /* chapterSixBJP.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterSixBJP.json; sourceTree = "<group>"; };
 		3A3C86EB2858E1F400F0F8DE /* chapterSixCJP.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chapterSixCJP.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		3A7C05F3285C73FB008F8B2D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AA9DFD32851CADD00365420 /* GlassAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassAnimationView.swift; sourceTree = "<group>"; };
 		3AA9DFEA2851DCEC00365420 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		3AA9DFEF28532FE300365420 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				058249A92854DE7300EC0832 /* BoxOpenView.swift */,
 				05FB2E5C2859E5D90089359B /* CreditView.swift */,
 				B73777FC285A099E00BC049F /* EndingBridgeView.swift */,
+				3A7C05F3285C73FB008F8B2D /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				B718B1D92858AF00006D0DB4 /* chapterTwoCN.json in Resources */,
 				B73777E72858D2F500BC049F /* NotoSerifSC-Regular.otf in Resources */,
 				3A3C86E228589A6100F0F8DE /* chapterTwoJP.json in Resources */,
+				3A7C05F4285C73FB008F8B2D /* LaunchScreen.storyboard in Resources */,
 				11139EBB28570D5B00EF6FD1 /* chapterFiveKR.json in Resources */,
 				B7690EE62851D157008E81AC /* Inter-SemiBold.ttf in Resources */,
 				3A3C86E82858C1C500F0F8DE /* chapterFiveJP.json in Resources */,
@@ -642,7 +646,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -674,7 +678,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
