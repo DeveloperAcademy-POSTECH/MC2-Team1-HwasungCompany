@@ -41,10 +41,10 @@ final class ModelData: ObservableObject {
     }
     
     // pastParas
-    @Published var pastParas: [[String]] = JsonManager.load("PastPara.json") {
+    @Published var pastParas: [[String]] = JsonManager.loadJsonFile() ?? [["Records"]] {
         didSet {
             lastPastParaIndex = pastParas.count
-            JsonManager.save(data: pastParas)
+            JsonManager.saveJsonData(data: pastParas)
         }
     }
     @Published var lastPastParaIndex = 0
