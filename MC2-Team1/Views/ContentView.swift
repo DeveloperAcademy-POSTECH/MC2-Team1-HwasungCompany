@@ -24,10 +24,12 @@ struct ContentView: View {
     @AppStorage("isPullLeverGame") var isPullLeverGame = false
     @AppStorage("isBoxOpenGame") var isBoxOpenGame = false
     
+    @State var sampleFontSize: Double = 18
     @State var isShowing = false
     @State var isShowingAlert = false
     @State var isButtonHidden: Bool = true
     @State var isButtonAnimation: Bool = true
+    @State var isTextEdited: Bool = false
     
     var currentParagraph: Paragraph {modelData.filterPara(currentChapter: modelData.currentChapterIndex, id: paragraphId)}
     
@@ -195,16 +197,19 @@ extension ContentView {
             VStack{
                 // Sample Text
                 Text("Current Text Size".localized())
-                    .font(.custom(modelData.contentFontName, size: fontSize))
-                    .padding(.vertical, RatioSize.getResheight(height: 10))
-                    .frame(height: 30)
-                
+                    .font(.custom(modelData.contentFontName, size: !isTextEdited ? fontSize : sampleFontSize ))
+                      .padding(.vertical, RatioSize.getResheight(height: 10))
+                      .frame(height: 30)
+
                 // Slider
                 HStack{
                     Text("A".localized())
                         .font(.custom(modelData.contentFontName, size: 14))
-                    Slider(value: $fontSize, in: 14...22,
-                           step: 2)
+                    Slider(value: $fontSize, in: 14...22, step: 2, onEditingChanged: {
+                        editing in
+                        isTextEdited = editing
+                        sampleFontSize = fontSize
+                    })
                     Text("A".localized())
                         .font(.custom(modelData.contentFontName, size: 22))
                 }
